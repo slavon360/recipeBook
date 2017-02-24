@@ -13,6 +13,8 @@
        .then(function(response){
         console.log(response);
          $scope.cities.push(response.data);
+       },function(error){
+        console.log(error);
        })
      }
     }
