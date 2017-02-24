@@ -11,7 +11,7 @@
     -->
         <div ng-show="(!recipeImages || recipeImages.length===0) && totalImgs" progress-bar class="progress-img-bar">     
         </div>
-        <div ng-show="!totalImgs" style="color:white;">there are no such images by your requirement. please, try different title.</div>
+        <div ng-show="!totalImgs" style="color:white;">there are no such images by your requirement. please, try another title.</div>
         <div class="col-md-4 col-sm-6 img-wrapper" ng-repeat="recipeImage in recipeImages" ng-click="addImgLink($index)">
    	     <img src="{{recipeImage}}" >
         </div>
