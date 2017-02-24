@@ -1,0 +1,20 @@
+<div class="general-layout-app recipe-main ">
+	<div class="row" style="height:100%;">
+	<section class="navigation-links col-md-6">
+		<a href="/works/recipeBook"><i class="fa fa-home" style="font-size:36px;"></i></a>
+		<div ng-repeat="link in locationPathCollection">/<a href="{{link.url}}">{{link.name}}</a></div>
+	</section>
+
+    <section class="section-recipe col-md-6" ng-class="{'section-recipe-out':currentRecipe.clicked}">
+        <h1>{{currentRecipe.name}}</h1>
+        <div class="recipe-description">
+        	{{currentRecipe.description}}
+        </div>
+        <nav class="hist-edit-delete-panel">
+        	<button ng-click="displayHistoryList(currentRecipe._id)"><i class="material-icons" style="font-size:46px;">history</i></button>
+        	<button  ng-click="displayOldRecipe(currentRecipe._id)"><span class="glyphicon glyphicon-edit"></span></button>
+        	<button ng-click="deleteRecipe(currentRecipe._id)"><span class="glyphicon glyphicon-trash"></span></button>
+        </nav>
+    </section>
+    </div>
+</div>

@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css?family=Bahiana|Amatic+SC');
+a{
+	text-decoration: none !important;
+	color: inherit;
+	display: block;
+}
+.whole-portfolio{
+	width:100%;
+	position: fixed;
+	top:0;
+	bottom: 0;
+	background:rgba(224,235,232,1);
+	color: rgba(78,178,156,1);
+	font-family: 'Bahiana', cursive;
+	font-size:2.5em;
+}
+.navbar{
+	padding: 25px 0;
+	background: transparent;
+}
+.whole-portfolio .right-menu{
+	float: right;
+}
+.whole-portfolio .right-menu a{
+	display: inline-block;
+	margin: 0 0 0 20px;
+	font-size: .8em;
+	line-height: 1.5;
+	position: relative;
+}
+.whole-portfolio .home-menu .right-menu a:hover{
+	color: white;
+}
+.profile-container{
+	float: left;
+	position: relative;
+	z-index: 30;
+}
+
+a.profile{
+	float: left;
+}
+.profile-photo{
+	width: 55px;
+	height: 55px;
+}
+.navbar{
+	
+	height: 110px;
+}
+.home-menu{
+	width: 100%;
+	
+}
+
+.greeting{
+	margin: 130px 0 0;
+	text-align: center;
+}
+.greeting h1{
+	font-size: 1.2em;
+}
+.greeting p{
+	font-size: .8em;
+}
+.navbar .container .home-menu a{
+	color: inherit;
+}
+.clouds img{
+	width: 140px;
+	height: 70px;
+	position: absolute;
+	z-index: -1;
+}
+.cloud-1 img{
+	top: 150px;
+	left: 30%;
+	animation: cloud-1-anim 20s linear infinite;
+}
+.cloud-2 img{
+	top: 200px;
+	left: 95%;
+	animation: cloud-2-anim 22s linear infinite;
+}
+.cloud-3 img{
+	top: 210px;
+	animation: cloud-3-anim 22s linear infinite;
+}
+.cloud-4 img{
+	top: 150px;
+	left: 15%;
+	animation: cloud-4-anim 18s linear infinite;
+}
+.cloud-5 img{
+	top: 190px;
+	left: 45%;
+	animation: cloud-5-anim 23s linear infinite;
+}
+.cloud-6 img{
+	top: 260px;
+	left: 75%;
+	animation: cloud-6-anim 25s linear infinite;
+	z-index: 1;
+}
+
+@keyframes cloud-1-anim{
+	0%{left:30%;opacity: 1;}
+	15%{left: 55%;opacity: 1;}
+	30%{left:80%;opacity: 1;}
+	50%{left:110%;opacity: 1;}
+	52%{opacity: 0}
+	60%{left: -20%;opacity: 0;}
+	70%{left: -20%;opacity: 1;}
+	100%{left:30%;opacity: 1;}
+}
+@-webkit-keyframes cloud-1-anim{
+	0%{left:30%;opacity: 1;}
+	15%{left: 55%;opacity: 1;}
+	30%{left:80%;opacity: 1;}
+	50%{left:110%;opacity: 1;}
+	52%{opacity: 0}
+	60%{left: -20%;opacity: 0;}
+	70%{left: -20%;opacity: 1;}
+	100%{left:30%;opacity: 1;}
+}
+@keyframes cloud-2-anim{
+	0%{left:95%;opacity: 1;}
+	15%{left: 120%;opacity: 0}
+	30%{left: -25%;opacity: 0;}
+	45%{left: 0%;opacity: 1;}
+	60%{left: 25%;opacity: 1;}
+	75%{left: 50%;opacity: 1;}
+	90%{left: 75%;opacity: 1;}
+	100%{left: 95%;opacity: 1;}
+}
+@-webkit-keyframes cloud-2-anim{
+	0%{left:95%;opacity: 1;}
+	15%{left: 120%;opacity: 0}
+	30%{left: -25%;opacity: 0;}
+	45%{left: 0%;opacity: 1;}
+	60%{left: 25%;opacity: 1;}
+	75%{left: 50%;opacity: 1;}
+	90%{left: 75%;opacity: 1;}
+	100%{left: 95%;opacity: 1;}
+}
+@keyframes cloud-3-anim{
+	0%{left: 0%;opacity: 1;}
+	90%{left: 105%;opacity: 1;}
+	91%{left: 105%;opacity: 0;}
+	95%{left: -9%;opacity: 0;}
+	96%{left: -8%opacity:1;}
+	100%{left: 0;opacity: 1;}
+}
+@-webkit-keyframes cloud-3-anim{
+	0%{left: 0%;opacity: 1;}
+	90%{left: 105%;opacity: 1;}
+	91%{left: 105%;opacity: 0;}
+	95%{left: -9%;opacity: 0;}
+	96%{left: -8%opacity:1;}
+	100%{left: 0;opacity: 1;}
+}
+@keyframes cloud-4-anim{
+	0%{left:15%;opacity: 1;}
+	20%{left: -12%;opacity: 1;}
+	21%{left:-12%;opacity: 0;}
+	25%{left: 105%;opacity: 0;}
+	30%{left: 100%;opacity: 1;}
+	100%{left: 15%;opacity: 1;}
+}
+@-webkit-keyframes cloud-4-anim{
+	0%{left:15%;opacity: 1;}
+	20%{left: -12%;opacity: 1;}
+	21%{left:-12%;opacity: 0;}
+	25%{left: 105%;opacity: 0;}
+	30%{left: 100%;opacity: 1;}
+	100%{left: 15%;opacity: 1;}
+}
+@keyframes cloud-5-anim{
+	0%{left: 45%;opacity: 1;}
+	45%{left:-12%;opacity: 1;}
+	46%{left: -12%;opacity: 0;}
+	49%{left: 105%;opacity: 0;}
+	50%{left: 100%;opacity: 1;}
+	100%{left: 45%;opacity: 1;}
+}
+@-webkit-keyframes cloud-5-anim{
+	0%{left: 45%;opacity: 1;}
+	45%{left:-12%;opacity: 1;}
+	46%{left: -12%;opacity: 0;}
+	49%{left: 105%;opacity: 0;}
+	50%{left: 100%;opacity: 1;}
+	100%{left: 45%;opacity: 1;}
+}
+@keyframes cloud-6-anim{
+	0%{left: 75%;opacity: 1;}
+	75%{left: -12%;opacity: 1;}
+	76%{left: -12%;opacity: 0;}
+	79%{left: 105%;opacity: 0;}
+	80%{left: 100%;opacity: 1;}
+	100%{left: 75%;opacity: 1;}
+}
+@-webkit-keyframes cloud-6-anim{
+	0%{left: 75%;opacity: 1;}
+	75%{left: -12%;opacity: 1;}
+	76%{left: -12%;opacity: 0;}
+	79%{left: 105%;opacity: 0;}
+	80%{left: 100%;opacity: 1;}
+	100%{left: 75%;opacity: 1;}
+}
+
+@media screen and (max-width: 768px){
+	a.profile{
+		margin-left: 10px;
+	}
+}
+@media screen and (max-width: 350px){
+	.home-menu{
+		font-size: .8em;
+	}
+}

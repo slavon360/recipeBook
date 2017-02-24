@@ -1,0 +1,26 @@
+<div class="general-layout-app newRecipe" >
+    
+    <section class="navigation-links">
+        <a ng-click="dropNewRecipe()" href="/works/recipeBook"><i class="fa fa-home" style="font-size:36px;"></i></a>
+        <div ng-repeat="link in locationPathCollection">/<a ng-click="dropNewRecipe()" href="{{link.url}}">{{link.name}}</a></div>
+    </section>
+    <section class="creation-field">
+        <form name="recipe" role="form">
+        <div class="alert alert-danger" ng-if="formError" role="alert">{{formError}}</div>
+            <div class="creation-field-title">Title <input type="text" ng-model="newRecipe.name" required="required" name="recipeName">
+            </div>
+            <div class="creation-field-text">
+            <div>Text<span style="visibility:hidden;">e</span></div> 
+            <textarea rows="4" ng-model="newRecipe.description" required="required" name="recipeDescription">
+                
+            </textarea>
+            </div>{{oldRecipe}}
+            <div class="creation-field-photo">
+            <button choose-images ng-disabled="!newRecipe.description || !newRecipe.name">Add photo</button>
+            <div ng-show="newRecipe.name && newRecipe.description && newRecipe.imgSrc" class="recipe-form-done"><i class="material-icons" style="font-size:36px">done</i></div>
+            <div class="button-wrapper"><button type="submit" ng-click="editRecipe(newRecipe._id)">UPDATE</button></div>
+            </div>
+
+        </form>
+    </section>
+</div>

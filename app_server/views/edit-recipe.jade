@@ -1,0 +1,23 @@
+extends layout
+include _includes/sharedHTMLfunctions
+
+block content
+
+   section.row
+     h2(style="text-align:center;") Edit your recipe here
+     table.table
+      thead
+       tr
+        th.col-sm-4 Name
+        th.col-sm-8 Description
+      tbody
+       form(action="#{url}", method="post", role="form")
+        tr
+         - if (error == "val")
+          .alert.alert-danger(role="alert") All fields required, please try again
+         td
+          input(name="name" value="#{recipe.name}").form-control 
+         td(style="text-align:center")
+          textarea(name="description" rows="3").form-control #{recipe.description} 
+         td.td-btn
+           button.btn.btn-primary Update

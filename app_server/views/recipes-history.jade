@@ -1,0 +1,27 @@
+extends layout
+include _includes/sharedHTMLfunctions
+
+block content
+  .whole-app
+   section.history-section
+    h2(style="text-align:center;margin-bottom:1em;") History
+    .headers
+     .col-sm-2.date-invisible Date
+     .col-sm-3 Name
+     .col-sm-7 Description
+    
+    section.history-list
+     - if (error == "val")
+      .alert.alert-danger #{message}
+     each recipe in recipes.history
+      .margin-2
+       .col-sm-2
+        small
+         +formatDate(recipe.createdOn)
+       .col-sm-3 #{recipe.name}
+       .col-sm-5.description-numeration #{recipe.description}
+       .col-sm-2
+
+        form(method="POST", action="/works/recipe/#{recipes._id}/history/#{recipe._id}?_method=DELETE", role="form")
+         button.delete-btn
+           i.material-icons(style="font-size:35px") delete

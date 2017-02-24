@@ -1,0 +1,9 @@
+extends layout
+
+block content
+  .row.works-container
+   each work in works
+    .col-sm-4.col-md-3.work-item
+     .work-name #{work.name}
+     .work-description #{work.description}
+     a.work-link(href='#{work.link}') live demo 

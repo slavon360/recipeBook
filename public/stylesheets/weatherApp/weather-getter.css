@@ -1,0 +1,108 @@
+.weather-background{
+	position: fixed;
+	bottom: 0;
+	top: 0;
+	overflow: auto;
+	width: 100%;
+	background: rgba(63,81,181,1);
+	box-sizing: border-box;
+	font-size: .9em;
+}
+.weather-wrapper{
+	width: 50%;
+	margin: 5% auto;
+	text-align: center;
+	color: white;
+	font-family: arial;
+}
+.weather-wrapper h3{
+	margin-bottom: 5%;
+}
+.weather{
+	font-size: .6em;
+}
+.weather-name{
+    margin: 0;
+    border: 1px solid white;
+    border-right: none;
+    width: 85%;
+    background:transparent; 
+    padding: 5px;
+}
+.search-weather{
+	padding: 6px 0;
+    margin: 0 0 0 -3%;
+    width:15%;
+    color: rgba(63,81,181,1);
+    padding-right: 0;
+    background: white;
+    border: none;
+}
+.button-clear{
+	background: white;
+	border: none;
+	display: inline-block;
+	text-align: center;
+	color: rgba(63,81,181,1);
+	padding: 4px 12px;
+	margin: 15% 0 0 0;
+}
+.weather-list{
+text-align: left;
+}
+.weather-list ul {
+	margin: 5% 0 0 0;
+	padding-left: 0;
+	list-style: none;
+}
+input.weather-name.ng-dirty{
+	background:rgba(0,255,0,.09);
+
+}
+input.weather-name.ng-pristine{
+	background:transparent;
+
+}
+::-webkit-input-placeholder{
+	color: white;
+}
+:-moz-placeholder {
+	color: white;
+}
+::-moz-placeholder { 
+	color: white;
+}
+:-ms-input-placeholder {  
+   color: white;  
+}
+@media screen and (max-width: 768px){
+	.weather-background{
+		font-size: .9em;
+	}
+	.search-weather{
+		width: 25%;
+	}
+	.weather-name{
+		width: 75%;
+	}
+	.weather-list{
+		font-size: .8em
+	}
+}
+@media screen and (max-width: 350px){
+	.weather-background{
+		font-size: .75em;
+	}
+	.weather-background h3{
+		font-size: 1.45em;
+	}
+	.search-weather{
+		width: 25%;
+	}
+	.weather-name{
+		width: 75%;
+	}	
+	.weather-list{
+		font-size: .7em
+	}
+}

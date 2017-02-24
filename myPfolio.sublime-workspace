@@ -1,0 +1,1175 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"facto",
+				"factoryCities"
+			],
+			[
+				"fact",
+				"factoryCities"
+			],
+			[
+				"wea",
+				"weatherAppCtrl"
+			],
+			[
+				"tra",
+				"transition"
+			],
+			[
+				"padd",
+				"padding-left"
+			],
+			[
+				"margi",
+				"margin-bottom"
+			],
+			[
+				"tr",
+				"transform"
+			],
+			[
+				"d",
+				"div"
+			],
+			[
+				"te",
+				"techSchema"
+			],
+			[
+				"inte",
+				"intervHandler"
+			],
+			[
+				"co",
+				"counterPoints"
+			],
+			[
+				"width",
+				"widthSetter"
+			],
+			[
+				"por",
+				"progrBar"
+			],
+			[
+				"prog",
+				"progrBar"
+			],
+			[
+				"pro",
+				"progrBar"
+			],
+			[
+				"s",
+				"scope"
+			],
+			[
+				"img",
+				"imgsObjs"
+			],
+			[
+				"get",
+				"getImagesFromPixabay"
+			],
+			[
+				"imag",
+				"imageName"
+			],
+			[
+				"pix",
+				"pixabayKey"
+			],
+			[
+				"borde",
+				"border-radius"
+			],
+			[
+				"up",
+				"updateHistoryList"
+			],
+			[
+				"histo",
+				"historyRecipeService"
+			],
+			[
+				"re",
+				"recipeHistoryList"
+			],
+			[
+				"reci",
+				"recipeHistoryList"
+			],
+			[
+				"curr",
+				"current"
+			],
+			[
+				"delete",
+				"deleteHistoryItem"
+			],
+			[
+				"dele",
+				"deleteHistoryItem"
+			],
+			[
+				"recipe",
+				"recipeHistoryList"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"padding",
+				"padding-left"
+			],
+			[
+				"text-",
+				"text-shadow"
+			],
+			[
+				"t",
+				"table"
+			],
+			[
+				"tab",
+				"table-cell"
+			],
+			[
+				"u",
+				"updRecipe"
+			],
+			[
+				"rei",
+				"recipesList"
+			],
+			[
+				"rec",
+				"recipe"
+			],
+			[
+				"lo",
+				"location"
+			],
+			[
+				"edi",
+				"editRecipe"
+			],
+			[
+				"api",
+				"apiHandlerService"
+			],
+			[
+				"a",
+				"apiHandlerService"
+			],
+			[
+				"pa",
+				"parent"
+			],
+			[
+				"im",
+				"important"
+			],
+			[
+				"pre",
+				"pre-line"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"ap",
+				"apiRecipes"
+			],
+			[
+				"link",
+				"linksFromComp"
+			],
+			[
+				"ima",
+				"imagesLinks"
+			],
+			[
+				"image",
+				"imagesLinks"
+			],
+			[
+				"li",
+				"links"
+			],
+			[
+				"i",
+				"imgsObjs"
+			],
+			[
+				"vali",
+				"validLinks"
+			],
+			[
+				"valid",
+				"validImgs"
+			],
+			[
+				"c",
+				"callback"
+			],
+			[
+				"val",
+				"validImgs"
+			],
+			[
+				"trans",
+				"transition"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"backgr",
+				"background"
+			],
+			[
+				"el",
+				"elem"
+			],
+			[
+				"page",
+				"pageState"
+			],
+			[
+				"new",
+				"newRecipe"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"home",
+				"homeCtrl"
+			],
+			[
+				"loca",
+				"locations"
+			],
+			[
+				"loc",
+				"location"
+			],
+			[
+				"servi",
+				"service"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"backg",
+				"background"
+			],
+			[
+				"locati",
+				"locationPath"
+			],
+			[
+				"bord",
+				"border"
+			],
+			[
+				"ma",
+				"margin-top"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"bac",
+				"background"
+			],
+			[
+				"bor",
+				"border"
+			],
+			[
+				"load",
+				"loadImg"
+			],
+			[
+				"work",
+				"works"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"ho",
+				"homeCtrl"
+			],
+			[
+				"tet",
+				"text-align"
+			],
+			[
+				"backgro",
+				"background-repeat"
+			],
+			[
+				"transi",
+				"transition"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"backr",
+				"background"
+			],
+			[
+				"tabl",
+				"table-cell"
+			],
+			[
+				"ta",
+				"table-cell"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"out",
+				"outerWidth"
+			],
+			[
+				"inli",
+				"inline-block"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"att",
+				"attrs"
+			],
+			[
+				"ro",
+				"routeChangeSuccess"
+			],
+			[
+				"so",
+				"Sorry"
+			],
+			[
+				"ugli",
+				"uglified"
+			],
+			[
+				"app",
+				"app_client"
+			],
+			[
+				"upd",
+				"updatedBody"
+			],
+			[
+				"n",
+				"numberIncreaser"
+			],
+			[
+				"body",
+				"bodyArray"
+			],
+			[
+				"reques",
+				"requestOptions"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"method",
+				"methodOverride"
+			],
+			[
+				"stat",
+				"statusCode"
+			],
+			[
+				"respo",
+				"response"
+			],
+			[
+				"reque",
+				"requestOptions"
+			],
+			[
+				"creat",
+				"createdOn"
+			],
+			[
+				"cre",
+				"createdOn"
+			],
+			[
+				"sen",
+				"sendJsonResponse"
+			],
+			[
+				"find",
+				"findById"
+			],
+			[
+				"requ",
+				"requestOptions"
+			],
+			[
+				"fin",
+				"findById"
+			],
+			[
+				"sta",
+				"statusCode"
+			],
+			[
+				"st",
+				"statusCode"
+			],
+			[
+				"res",
+				"response"
+			],
+			[
+				"o",
+				"apiOptions"
+			],
+			[
+				"leng",
+				"length"
+			],
+			[
+				"rgb",
+				"rgba()"
+			],
+			[
+				"ren",
+				"render"
+			],
+			[
+				"hist",
+				"historySchema"
+			],
+			[
+				"form",
+				"formData"
+			],
+			[
+				"di",
+				"div	Tag"
+			],
+			[
+				"for",
+				"formData"
+			],
+			[
+				"mod",
+				"modalContent"
+			],
+			[
+				"revi",
+				"reviews"
+			],
+			[
+				"modal",
+				"modalInstance"
+			],
+			[
+				"mo",
+				"modalInstance"
+			],
+			[
+				"locatio",
+				"location"
+			],
+			[
+				"locationBy",
+				"locationById"
+			],
+			[
+				"direc",
+				"directive"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "app.js",
+			"settings":
+			{
+				"buffer_size": 3255,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app_api/routes/index.js",
+			"settings":
+			{
+				"buffer_size": 826,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app_client/app.js",
+			"settings":
+			{
+				"buffer_size": 1492,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app_client/views/works/works.html",
+			"settings":
+			{
+				"buffer_size": 856,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app_client/common/directives/tech-renderer/tech-renderer.directive.js",
+			"settings":
+			{
+				"buffer_size": 1190,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app_api/models/portfolio.js",
+			"settings":
+			{
+				"buffer_size": 1363,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/E/mean/newPfolio",
+		"/E/mean/newPfolio/app_api",
+		"/E/mean/newPfolio/app_api/controllers",
+		"/E/mean/newPfolio/app_api/models",
+		"/E/mean/newPfolio/app_api/routes",
+		"/E/mean/newPfolio/app_client",
+		"/E/mean/newPfolio/app_client/common",
+		"/E/mean/newPfolio/app_client/common/directives",
+		"/E/mean/newPfolio/app_client/common/directives/new-recipe",
+		"/E/mean/newPfolio/app_client/common/directives/progress-bar",
+		"/E/mean/newPfolio/app_client/common/directives/tech-renderer",
+		"/E/mean/newPfolio/app_client/common/filters",
+		"/E/mean/newPfolio/app_client/common/services",
+		"/E/mean/newPfolio/app_client/common/services/factories",
+		"/E/mean/newPfolio/app_client/views",
+		"/E/mean/newPfolio/app_client/views/home",
+		"/E/mean/newPfolio/app_client/views/tech",
+		"/E/mean/newPfolio/app_client/views/works",
+		"/E/mean/newPfolio/app_client/views/works/recipeBook",
+		"/E/mean/newPfolio/app_client/views/works/recipeBook/edit",
+		"/E/mean/newPfolio/app_client/views/works/recipeBook/history",
+		"/E/mean/newPfolio/app_client/views/works/recipeBook/recipe",
+		"/E/mean/newPfolio/app_client/views/works/weatherApp",
+		"/E/mean/newPfolio/public",
+		"/E/mean/newPfolio/public/stylesheets",
+		"/E/mean/newPfolio/public/stylesheets/recipeBook",
+		"/E/mean/newPfolio/public/stylesheets/weatherApp"
+	],
+	"file_history":
+	[
+		"/E/mean/newPfolio/app_client/views/works/weatherApp/weatherAppCtrl.js",
+		"/E/mean/newPfolio/public/stylesheets/recipeBook/mainPage.css",
+		"/E/mean/newPfolio/public/stylesheets/weatherApp/weather-getter.css",
+		"/E/mean/newPfolio/app_client/views/works/weatherApp/weatherApp.html",
+		"/E/mean/newPfolio/app_client/index.html",
+		"/C/Users/Slavon/slavon360.github.io/slavon360.github.io/content/weather-getter/weather-getter.css",
+		"/C/Users/Slavon/slavon360.github.io/slavon360.github.io/app/partials/weatherGetter.html",
+		"/E/mean/newPfolio/app_api/models/portfolio.js",
+		"/C/Users/Slavon/slavon360.github.io/slavon360.github.io/app/factories/logService.js",
+		"/E/mean/newPfolio/app_client/common/services/factories/factoryCities.factory.js",
+		"/E/mean/newPfolio/app_client/common/directives/tech-renderer/tech-renderer.directive.js",
+		"/E/mean/newPfolio/app_client/mainCtrl.js",
+		"/E/mean/newPfolio/app_client/common/services/imgHandler.service.js",
+		"/C/Users/Slavon/slavon360.github.io/slavon360.github.io/app/controllers/controllers.js",
+		"/C/Users/Slavon/slavon360.github.io/slavon360.github.io/app/app.js",
+		"/E/mean/newPfolio/app_client/views/works/works.html",
+		"/E/mean/newPfolio/public/stylesheets/works.css",
+		"/E/mean/newPfolio/app_client/views/tech/tech.html",
+		"/E/mean/newPfolio/app_client/common/directives/new-recipe/googleApiImages.directive.js",
+		"/E/mean/newPfolio/app_client/views/works/recipeBook/recipe/recipeCtrl.js",
+		"/E/mean/newPfolio/app_client/views/works/recipeBook/recipesList/recipesCtrl.js",
+		"/E/mean/newPfolio/app_client/common/directives/progress-bar/progress-bar.directive.js",
+		"/E/mean/newPfolio/app_client/common/directives/new-recipe/searchEngine.template.html",
+		"/E/mean/newPfolio/app_client/views/works/recipeBook/edit/editRecipe.html",
+		"/E/mean/newPfolio/public/stylesheets/recipeBook/recipesList.css",
+		"/E/mean/newPfolio/app_api/controllers/recipesCtrl.js",
+		"/E/mean/newPfolio/app_client/views/works/recipeBook/recipe/recipe.html",
+		"/E/mean/newPfolio/public/stylesheets/recipeBook/recipe.css",
+		"/E/mean/newPfolio/app_client/common/services/apiHandler.service.js",
+		"/E/mean/newPfolio/app_client/common/directives/new-recipe/newRecipe.html",
+		"/E/mean/newPfolio/app_client/views/works/recipeBook/history/recipeHistory.html",
+		"/E/mean/newPfolio/app_client/common/services/historyRecipe.service.js",
+		"/E/mean/newPfolio/app_client/app.js",
+		"/E/mean/newPfolio/app_client/views/works/recipeBook/recipesList/recipesList.html",
+		"/E/mean/newPfolio/app_client/common/directives/new-recipe/newRecipe.directive.js",
+		"/E/mean/newPfolio/app_api/controllers/homeCtrl.js",
+		"/E/mean/newPfolio/app_api/routes/index.js",
+		"/E/promises.html",
+		"/E/script.html",
+		"/E/callbacks.js",
+		"/E/mean/newPfolio/app_client/views/works/recipeBook/mainPage.html",
+		"/E/mean/newPfolio/app_client/views/works/recipeBook/recipe/newRecipe.html",
+		"/E/mean/newPfolio/app_client/common/services/linkRenderer.service.js",
+		"/E/mean/newPfolio/public/stylesheets/home.css",
+		"/E/script.js",
+		"/E/mean/newPfolio/app_server/controllers/recipesCtrl.js",
+		"/E/mean/cuisine/app_server/views/recipes.jade",
+		"/E/mean/cuisine/public/stylesheets/style.css",
+		"/E/mean/newPfolio/app_client/views/works/worksCtrl.js",
+		"/E/mean/newPfolio/app_client/common/directives/navigation/navigation.template.html",
+		"/E/mean/newPfolio/app_client/common/services/worksNavigation.service.js",
+		"/E/mean/newPfolio/public/stylesheets/earth-style.css",
+		"/E/mean/newPfolio/app_client/common/directives/carousel/carousel.template.html",
+		"/E/mean/newPfolio/app_client/common/directives/carousel/carousel.directive.js",
+		"/E/mean/newPfolio/app_client/lib/angular-animate.js",
+		"/E/mean/newPfolio/app_client/common/directives/footer-earth/footer-earth.template.html",
+		"/E/mean/newPfolio/public/bootstrap/js/bootstrap.js",
+		"/E/mean/newPfolio/app_client/views/home/homeCtrl.js",
+		"/E/mean/newPfolio/app_client/views/tech/techCtrl.js",
+		"/E/mean/newPfolio/app_client/common/directives/earth-process/earthProcess.directive.js",
+		"/E/mean/newPfolio/app_client/common/services/earth.service.js",
+		"/E/mean/newPfolio/app_client/common/directives/navigation/navigation.directive.js",
+		"/E/mean/newPfolio/app_client/common/directives/footer-earth/footer.earth.directive.js",
+		"/E/mean/newPfolio/public/stylesheets/recipeBook/style.css",
+		"/E/mean/newPfolio/app_client/common/directives/when-active/whenActive.directive.js",
+		"/E/mean/newPfolio/app_client/views/home/home.html",
+		"/E/mean/newPfolio/app_client/common/appCtrl.js",
+		"/E/mean/cuisine/app_client/index.html",
+		"/E/mean/cuisine/app_client/common/filters/newLine.filter.js",
+		"/E/mean/cuisine/app_client/common/directives/navigation/navigation.template.html",
+		"/E/mean/cuisine/app_client/common/directives/navigation/navigation.directive.js",
+		"/E/mean/cuisine/public/stylesheets/stylesEditHistory.css",
+		"/E/mean/cuisine/nodemon.json",
+		"/E/mean/cuisine/app_server/views/recipes-history.jade",
+		"/E/mean/cuisine/app_api/routes/index.js",
+		"/E/mean/cuisine/app_server/views/layout.jade",
+		"/E/mean/cuisine/app_api/controllers/recipes.js",
+		"/E/mean/cuisine/app_server/controllers/recipes.js",
+		"/E/mean/cuisine/app_server/routes/index.js",
+		"/E/mean/cuisine/app_server/views/edit-recipe.jade",
+		"/E/mean/cuisine/app_api/models/recipes.js",
+		"/E/mean/cuisine/app_server/views/error.jade",
+		"/E/mean/cuisine/app_server/views/_includes/sharedHTMLfunctions.jade",
+		"/E/mean/loc8r/app_server/views/_includes/sharedHTMLfunctions.jade",
+		"/E/mean/loc8r/app_server/views/locations-list.jade",
+		"/E/mean/loc8r/app_server/views/location-review-form.jade",
+		"/E/mean/loc8r/app_api/controllers/locations.js",
+		"/E/mean/loc8r/app_server/views/location-info.jade",
+		"/E/mean/loc8r/app_server/controllers/locations.js",
+		"/E/mean/loc8r/public/javascripts/validation.js",
+		"/E/mean/loc8r/app_api/controllers/reviews.js",
+		"/E/mean/loc8r/app_client/common/services/loc8rData.service.js",
+		"/E/mean/loc8r/app_client/locationDetail/locationDetail.controller.js",
+		"/E/mean/loc8r/app_client/locationDetail/locationDetail.view.html",
+		"/E/mean/cookBook/public/index.html",
+		"/E/mean/loc8r/app_client/app.js",
+		"/E/mean/loc8r/public/stylesheets/style.css",
+		"/E/mean/loc8r/app_client/index.html",
+		"/E/mean/loc8r/app_client/home/home.view.html",
+		"/E/mean/loc8r/public/angular/loc8r.min.js",
+		"/E/mean/loc8r/public/angular/loc8rApp.js",
+		"/E/mean/loc8r/app_server/routes/index.js",
+		"/E/mean/loc8r/app_server/views/layout.jade",
+		"/E/mean/loc8r/app_client/reviewModal/reviewModal.view.html",
+		"/E/mean/loc8r/app_client/reviewModal/reviewModal.controller.js",
+		"/E/mean/loc8r/public/angular/angular.js",
+		"/E/mean/loc8r/app_client/common/directives/ratingStars/ratingStars.directive.js",
+		"/E/mean/loc8r/app_client/common/filters/addHtmlLineBreaks.filter.js",
+		"/E/mean/loc8r/app_client/about/about.controller.js",
+		"/E/mean/loc8r/app_client/common/views/genericText.view.html",
+		"/E/mean/loc8r/app_client/common/directives/pageHeader/pageHeader.template.html",
+		"/E/mean/loc8r/app_client/common/directives/navigation/navigation.template.html",
+		"/E/mean/loc8r/app_client/lib/angular-sanitize.min.js",
+		"/E/mean/loc8r/app_client/views/genericText.view.html",
+		"/E/mean/loc8r/app_client/home/home.controller.js",
+		"/E/mean/loc8r/app_client/common/filters/addHtmlLineBreaks.js",
+		"/E/mean/loc8r/app_client/common/directives/navigation/navigation.directive.js",
+		"/E/mean/loc8r/app_client/common/directives/pageHeader/pageHeader.directive.js",
+		"/E/mean/loc8r/app_client/common/directives/footerGeneric/footerGeneric.template.html",
+		"/E/mean/loc8r/app_client/common/directives/footerGeneric/footerGeneric.directive.js",
+		"/E/mean/loc8r/app_server/controllers/others.js",
+		"/E/mean/loc8r/app_client/common/services/geolocation.service.js",
+		"/E/mean/loc8r/app_client/common/filters/formatDistance.filter.js",
+		"/E/mean/loc8r/nodemon.json",
+		"/E/mean/loc8r/package.json",
+		"/E/mean/loc8r/app_api/models/locations.js",
+		"/E/web2/freeman/testMiddle/app/directives/directives.js",
+		"/E/mean/loc8r/public/angular/rating-stars.html"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"historyList",
+			"recipe-history",
+			"transform",
+			"home-menu",
+			"console.log",
+			"console",
+			"consol",
+			"cons",
+			"Loc",
+			"locationid",
+			"locationListCtrl",
+			"cbNoGeo",
+			"script",
+			"thisReview",
+			"head",
+			"showHistory",
+			"addCollection",
+			"dformat",
+			"scroll-list-full",
+			"recipes-list-full",
+			"date-form",
+			"())",
+			"passport",
+			"authenticate",
+			"pageState",
+			"console.log",
+			"diacrisis",
+			"target",
+			"red",
+			"contact-info",
+			"section-new",
+			"who-we",
+			"backgrou",
+			"main-view",
+			"tasks",
+			"books",
+			"h3",
+			"::",
+			"font-size",
+			"forEa",
+			"weathe",
+			"font-size",
+			"button-next",
+			"product-group",
+			"dunkin",
+			"info-cart",
+			"nescafe",
+			"genera",
+			"product-group",
+			"item-menu:ho",
+			"parent-products-menu",
+			"products-menu",
+			"item-menu",
+			"products-menu",
+			"vw",
+			"defineNum",
+			"products-menu li",
+			"products-menu a",
+			"item-menu",
+			"sortP",
+			"shoppi",
+			"products-menu",
+			"item-menu",
+			"products-menu",
+			"product-group",
+			"item-menu",
+			"product-group",
+			"utem-product",
+			"product-grou",
+			"parent-pro",
+			"product-gro",
+			"shopp",
+			"trans",
+			"tr",
+			"shopping",
+			"parent-product-group",
+			"shopping-cart",
+			"parent-product-gr",
+			"parent-products-menu",
+			"table",
+			"td",
+			"showHid",
+			"showHi",
+			"item-menu",
+			"animatio",
+			"animati",
+			"product-group",
+			"parent-products-menu",
+			"item-menu",
+			"font-family",
+			"info-cart",
+			"item-product",
+			"shopping-car",
+			"shopping",
+			"shopping-cart",
+			"product-group",
+			"parent-products-menu",
+			"site",
+			"example",
+			"site",
+			"event",
+			"toggle-menu",
+			"font-si",
+			"design",
+			"row ",
+			"row",
+			"1em",
+			"6",
+			"}\n",
+			")\n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"folders":
+	[
+		{
+			"path": "E:\\mean\\newPfolio"
+		}
+	],
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "app.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3255,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1339,
+								1339
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 682.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app_api/routes/index.js",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 826,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app_client/app.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1492,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1278,
+								1278
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 321.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app_client/views/works/works.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 856,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								528,
+								528
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "app_client/common/directives/tech-renderer/tech-renderer.directive.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1190,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								552,
+								552
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": -0.0,
+						"translation.y": 101.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "app_api/models/portfolio.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1363,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1128,
+								1128
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 150.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 392.0,
+		"last_filter": "lg-",
+		"selected_items":
+		[
+			[
+				"lg-",
+				"col-lg-2"
+			]
+		],
+		"width": 392.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 263.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

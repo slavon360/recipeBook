@@ -1,0 +1,15 @@
+mixin formatDate(dateString)
+  -var incomingDate=new Date(dateString);
+  -var days=['Sun','Mon','Tue','Wed','Thur','Fr','Sat'];
+  -var months=[ "January", "February", "March", "April", "May", "June","July", "August", "September", "October", "November", "December"];
+  -var day=days[incomingDate.getDay()];
+  -var month=months[incomingDate.getMonth()];
+  -var date=incomingDate.getDate();
+  -var year=incomingDate.getFullYear();
+  -var h=incomingDate.getHours();
+  -var minutes=incomingDate.getMinutes().toFixed(0);
+  -var m=minutes.length===1 ? '0'+minutes : minutes;
+  -var seconds=incomingDate.getSeconds().toFixed(0);
+  -var s=seconds.length===1 ? '0'+''+seconds : seconds;
+  -var output=day+' '+month+' '+date+' '+year+' '+h+':'+m+':'+s;
+  =output

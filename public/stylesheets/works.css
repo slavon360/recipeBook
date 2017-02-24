@@ -1,0 +1,218 @@
+.works-container{
+	animation: works-list .5s linear;
+	margin: 180px 2%;
+	height: 40vh;
+	position: relative;
+}
+.work-item{
+	border-radius: 5px;
+	text-align: center;
+	width: 33%;
+	padding: 0 45px;
+	position: absolute;
+	height: 100%;
+	transition: all 1s;
+	display: table;
+}
+.background{
+	display: table-cell;
+	vertical-align: middle;
+	color: white;
+	padding: 0 45px;
+	background-size: contain !important;
+	background-repeat: no-repeat !important;
+	background-position: center !important;
+	z-index: -1;
+	position: relative;
+	transition: .3s;
+	cursor: default;
+}
+.background:hover{
+	-webkit-transform: scale(1.05);
+	-ms-transform: scale(1.05);
+	transform: scale(1.05);
+}
+.background:hover:before{
+	background:rgba(250,250,250,.2);
+	border:1px solid #999;
+}
+.background:before{
+	content: '';
+	position: absolute;
+	left: 0;
+	background:rgba(250,250,250,.4);
+	border-radius: 5px;
+	border:1px solid #bbb;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	z-index: -1;
+	transition: .3s;
+}
+.work-name{
+	font-size: .8em;
+	color: #333;
+	text-decoration: underline;
+}
+.work-description{
+	font-size: .55em;
+	color: rgba(50,50,50,1);
+	font-weight: 100;
+	float: left;
+}
+.work-link{
+	clear: both;
+	text-decoration: none !important;
+	font-size:.55em !important;
+	margin: 3% 20% 2%;
+	background: rgba(100,100,100,.7);
+}
+.work-link:hover{
+	color: white !important;
+	background: rgba(100,100,100,1);
+}
+.next-work-btn, .previous-work-btn{
+	position: absolute;
+	z-index: 100;
+	height: 100%;
+	border:none;
+	outline: none;
+	background: transparent;
+	transition: all .4s;
+}
+.next-work-btn:hover, .previous-work-btn:hover{
+	-webkit-transform:scale(1.5);
+	-ms-transform:scale(1.5);
+	transform: scale(1.5);
+}
+.next-work-btn{
+	right: -2%;
+}
+.previous-work-btn{
+	left: -2%;
+}
+.works-container .work-link{
+	color: #222;
+	font-size: .8em;
+}
+.tech-container{
+	margin-top: 130px;
+	overflow: auto;
+}
+.section-tech{
+	font-family: 'Amatic SC', cursive;
+	color: black;
+	animation: techstack .5s linear;
+	padding: 2% 0 2% 2%;
+}
+.tech-bar{
+	background: #9e1;
+	height: .3em;
+}
+.my-contacts{
+	position: absolute;
+	right: 0;
+	margin-top: 2%;
+	width: 10%;
+}
+.facebook, .linkedin, .twitter{
+	width: 50px;
+	height: 50px;
+	margin-bottom: 20px;
+	background-size: contain !important;
+}
+.facebook{
+	background: url('/images/social/facebook.png');
+	animation: facebook-rotate 2s linear;
+}
+.linkedin{
+	background: url('/images/social/linkedin.png');
+	animation: linkedin-rotate 2.3s linear;
+}
+.twitter{
+	background: url('/images/social/twitter.png');
+	animation: twitter-rotate 2.6s linear;
+}
+
+@keyframes facebook-rotate{
+	0%{
+		transform: translate(1200%,0) rotate(0deg);
+	}
+	100%{
+		transform: translate(0,0) rotate(-360deg);
+	}
+}
+@keyframes linkedin-rotate{
+	0%{
+		transform: translate(1200%,0) rotate(0deg);
+	}
+	100%{
+		transform: translate(0,0) rotate(-360deg);
+	}
+}
+@keyframes twitter-rotate{
+	0%{
+		transform: translate(1200%,0) rotate(0deg);
+	}
+	100%{
+		transform: translate(0,0) rotate(-360deg);
+	}
+}
+@keyframes techstack{
+	0%{ 
+		-webkit-transform: translate(100%,0);
+		-ms-transform: translate(100%,0);
+		transform: translate(100%,0);
+	}
+	100%{
+		-webkit-transform: translate(0,0);
+		-ms-transform: translate(0,0);
+		transform: translate(0,0);
+	}
+}
+@keyframes works-list{
+	0%{left: 100%;}
+	100%{left: 0;}
+}
+
+@media screen and (max-height: 420px){
+	.works-container{
+		margin: 140px 2%;
+	}
+}
+@media screen and (max-width: 768px){
+	.tab-bar{
+		font-size: .8em;
+	}
+	.section-tech {
+		font-size: .6em;
+	}
+	.my-contacts{
+		margin-top:0;
+		top: 75px; 
+		width: 90%;
+	}
+	.facebook, .linkedin, .twitter{
+		margin: 0 0 0 17%;
+		display: inline-block;
+		width: 25px;
+		height: 25px;
+	}
+.facebook{
+	animation: facebook-rotate .5s linear;
+}
+.linkedin{
+	animation: linkedin-rotate .8s linear;
+}
+.twitter{
+	animation: twitter-rotate 1.1s linear;
+}
+}
+@media screen and (max-width: 420px){ 
+	.tech-item {
+		margin-bottom: 3em;
+	}
+	.section-tech {
+		font-size: .45em;
+	}
+}

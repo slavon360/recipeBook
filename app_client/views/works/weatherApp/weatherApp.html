@@ -1,0 +1,17 @@
+<div class="weather-background">
+<div class="weather-wrapper">
+<h3>Get the weather!</h3>
+<form  name="weatherForm" novalidate ng-submit="submitForm()">
+	<input name="weatherName" type="text" class="weather weather-name" ng-class="weatherForm.weatherName.$dirty ? 'ng-dirty' : 'ng-pristine'" ng-model="weather.city" placeholder="What`s the weather in..." required>
+	<button class="weather search-weather"  type="submit" ng-disabled="weatherForm.$invalid">Search</button>
+	<div class="weather-list">
+		<ul>
+			<li ng-repeat="city in cities">-{{city.name}}, <span style="font-size:.8em">{{city.sys.country}}: {{city.main.temp}}&#8451;,</span> <span style="font-size:.7em">{{city.weather[0].description}}</span></li>
+		</ul>
+	</div>
+	
+	
+</form>
+<button class="weather button-clear" ng-click="clearList()">clear</button>
+</div>
+</div>

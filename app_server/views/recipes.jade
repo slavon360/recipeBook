@@ -1,0 +1,50 @@
+extends layout
+include _includes/sharedHTMLfunctions
+
+block content
+  .whole-app
+   .container.whole-container
+      section(style="margin-top:0").page-header
+       .row
+        .col-lg-6
+         a(href="/works/recipe" style="float:left")
+          h1 Recipe book
+            small &nbsp;editor
+   section
+    table.table
+     thead
+      tr
+       th.col-sm-2.date-invisible Date
+       th.col-sm-3 Name
+       th.col-sm-7 Description
+       th.invisible &nbsp;
+     tbody
+      form(action="/works/recipe", method="post", name="addRecipe" role="form")
+       tr
+        - if (error == "val")
+         .alert.alert-danger(role="alert") All fields required, please try again
+        td.date-format (mm/dd/yyyy hh:mm:ss)
+        td
+         input(name="name").form-control 
+        td(style="text-align:center")
+         textarea(name="description" rows="3").form-control
+        td.td-btn
+          button.btn.btn-primary Add
+    each recipe in recipes
+     .recipes-list
+      .col-xs-2 
+       #{recipe.name}
+       small
+        +formatDate(recipe.createdOn)
+      .col-xs-3 #{recipe.name}
+      .col-xs-5.description-numeration #{recipe.description}
+      .col-xs-2
+       .history-btn
+        a(href="/works/recipe/#{recipe._id}/history")
+         i.material-icons(style="font-size:40px") history
+       .edit-btn
+        a(href="/works/recipe/#{recipe._id}/edit")
+         i.material-icons(style="font-size:40px") mode_edit
+       form(method="POST", action="/works/recipe/#{recipe._id}/delete?_method=DELETE", role="form")
+        button.delete-btn
+            i.material-icons(style="font-size:38px") delete

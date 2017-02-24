@@ -1,0 +1,33 @@
+doctype html
+html
+  head
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    title= title
+    link(rel='stylesheet', href='/bootstrap/css/bootstrap.css')
+    link(href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet")
+    link(rel='stylesheet', href='/stylesheets/home.css')
+    link(rel='stylesheet', href='/stylesheets/earth-style.css')
+    link(rel='stylesheet', href='/stylesheets/works.css')
+    link(rel='stylesheet', href='/stylesheets/recipeBook/style.css')
+    link(rel='stylesheet', href='/stylesheets/recipeBook/stylesEditHistory.css')
+  body
+    .whole-portfolio
+     .navbar.navbar-default.navbar-fixed-top(style="z-index:-1")
+       .container
+        .navbar-header.home-menu
+         a(href='/').profile
+          img(src='/images/profile.png', alt="photo-profile").profile-photo
+         .right-menu
+          a(href='/') About
+          a(href='/works') Works
+          a(href='') Technologies
+
+         
+     block content
+     section.earth-section
+      img(src='/images/earth.png').earth
+
+
+
+     script(src='/javascripts/jquery.js')
+     script(src='/bootstrap/js/bootstrap.js')

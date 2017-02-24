@@ -1,0 +1,24 @@
+<div class="general-layout-app recipesList-main">
+  
+  <div class="navigation-links">
+   <a href="/works/recipeBook"><i class="fa fa-home" style="font-size:36px;"></i></a>
+   <div ng-repeat="link in locationPathCollection">/<a href="{{link.url}}">{{link.name}}</a></div>
+  </div>
+  
+  <div class="recipesList-filter">
+    <input type="text" placeholder="filter your recipes here" ng-model="textFilter">  	
+  </div>
+
+  <div class="recipes-stack row">
+
+  	<div class="col-md-6 rc-align" ng-repeat="recipe in recipesList | filter : textFilter">
+  	   <a href="/works/recipes/{{recipe._id}}" class="recipe-item col-md-12"> 
+  	    <div class="recipe-image"><span ng-if="!recipe.imgSrc"><span>no img</span></span><img src="{{recipe.imgSrc}}"></div>
+  		<div class="recipe-name">{{recipe.name}}</div>
+  		<div class="recipe-date">{{recipe.createdOn | date:"HH:mm dd MMMM yyyy"}}</div>
+  	   </a>
+  	</div>
+
+  </div>
+
+</div>

@@ -1,0 +1,17 @@
+.earth-section{
+	position: fixed;
+	bottom: -75%;
+	height: 100%;
+	margin: 0 auto;
+	width: 100%;
+	text-align: center;
+	z-index: -3;
+}
+ img.earth{
+	height: 50%;
+	display: inline-block;
+	-ms-transform-origin: 45% 52%;
+	-webkit-transform-origin: 45% 52%;
+	transform-origin: 45% 52%;
+	transition: all .5s;
+}

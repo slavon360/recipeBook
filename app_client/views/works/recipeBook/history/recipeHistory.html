@@ -1,0 +1,32 @@
+<div class="general-layout-app recipe-history">
+    
+    <section class="navigation-links">
+		<a href="/works/recipeBook"><i class="fa fa-home" style="font-size:36px;"></i></a>
+		<div ng-repeat="link in locationPathCollection">/<a href="{{link.url}}">{{link.name}}</a></div>
+	</section>
+	<div ng-if="!recipeHistoryList.length">history is empty</div>
+	<section class="recipe-history-section row" ng-class="{'recipe-history-section-out':recipe.clicked}" ng-repeat="recipe in recipeHistoryList">
+
+
+		<div class="recipe-history-date col-sm-2">
+			{{recipe.createdOn | date:"HH:mm dd MMMM yyyy"}}
+		</div>
+
+		<div class="recipe-history-name-description col-sm-6 col-xs-10">
+			<div class="recipe-history-name">
+				{{recipe.name}}
+			</div>
+			<div class="recipe-history-description">
+				{{recipe.description}}
+			</div>
+		</div>
+
+		<div class="recipe-history-delete col-sm-4 col-xs-2">
+			<button ng-click="deleteHistoryItem(recipe._id, recipe)">
+			 <span class="glyphicon glyphicon-trash"></span>
+			</button>
+		</div>
+
+	</section>
+
+</div>

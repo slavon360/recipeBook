@@ -1,0 +1,110 @@
+
+.general-layout-app{
+	position: fixed;
+	bottom: 0;
+	top: 0;
+	overflow: auto;
+	width: 100%;
+	font-family: 'Amatic SC', cursive;
+}
+.recipeBook-main{
+	background: url('/images/works/main.jpg') no-repeat;
+	background-size: cover;
+	background-position: bottom;
+	color: white;
+	padding: 10% 8% 0;
+	text-align: center;
+}
+.recipeBook-main .wrapper-recipe-header{
+	border: 10px solid rgba(112,117,124,.8);
+}
+.recipeBook-main h1{
+	font-size:1.5em;
+	padding: 5% 0;
+	margin: 3px;
+	cursor: default;
+}
+.recipeBook-main a, .recipeBook-main button{
+	padding: 2% 0;
+	margin: 0 0 15%;
+	font-size: 1.2em;
+}
+.recipeBook-main button{
+	background: rgba(112,117,124,.8);
+	border: none;
+	outline: none;
+	width: 100%;
+}
+.recipeBook-main a,.recipeBook-main h1{
+	display: block;
+	background: rgba(112,117,124,.8);
+}
+.recipeBook-main a:hover, .recipeBook-main button:hover{
+	background:rgba(206,207,208,1);
+	color: #333;
+}
+.recipeBook-sectionleft, .recipeBook-sectionright{
+	width: 45%;
+}
+.recipeBook-sectionleft{
+	float: left;
+}
+.recipeBook-sectionright{
+	float: right;
+}
+
+.newRecipe{
+	background: url('/images/works/newRecipe.jpg') no-repeat;
+	background-size: cover;
+	color: #ddd;
+	padding: 4%;
+}
+.creation-field{
+	height: 85%;
+	padding: 2% 0 0 3%;
+}
+.creation-field input, .creation-field textarea{
+	background:rgba(206,207,208,.7);
+	width: 60%;
+	border: none;
+	color: black;
+}
+.creation-field-text, .creation-field-title{
+	margin-bottom: 2%;
+}
+.creation-field-text>div{
+	display: inline-block;
+	-ms-transform:translate(0, -320%);
+	-webkit-transform:translate(0, -320%);
+	transform: translate(0, -320%);
+}
+.creation-field-photo {
+	margin: 0 0 0 30%;
+}
+.creation-field-photo button{
+	background: rgba(206,207,208,.7);
+}
+.creation-field-photo button:hover{
+	color: #333;
+}
+.button-wrapper {
+	margin: 3% 0 2% -12px;
+	border:5px solid rgba(206,207,208,.7);
+	width: 140px;
+}
+.button-wrapper button{
+	margin: 3px;
+	width: 124px;
+}
+
+
+
+@media screen and (max-width: 550px){
+	.recipeBook-sectionleft, .recipeBook-sectionright{
+		float: none;
+		width: 100%;
+	}
+	.recipeBook-sectionright{
+		margin: 15% 0 0;
+	}
+}

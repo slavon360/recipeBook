@@ -1,0 +1,20 @@
+<div class="images-grid-wrapper1">
+ <div class="images-grid-wrapper2">
+     <div class="panel-close">
+           <span><i class="material-icons" style="font-size:36px">close</i></span>
+     </div>
+     <div class="images-grid ">
+        <!--
+        <div ng-show="!recipeImages || recipeImages.length===0" class="download-circle">
+        <i class="material-icons" style="font-size:36px">cached</i>
+        </div>
+    -->
+        <div ng-show="(!recipeImages || recipeImages.length===0) && totalImgs" progress-bar class="progress-img-bar">     
+        </div>
+        <div ng-show="!totalImgs" style="color:white;">there are no such images by your requirement. please, try different title.</div>
+        <div class="col-md-4 col-sm-6 img-wrapper" ng-repeat="recipeImage in recipeImages" ng-click="addImgLink($index)">
+   	     <img src="{{recipeImage}}" >
+        </div>
+     </div>
+ </div>
+</div>

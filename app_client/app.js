@@ -1,0 +1,48 @@
+(function(){
+	angular.module('myPortfolio',['ngRoute','ngSanitize','ui.bootstrap']);
+
+	 function config($routeProvider,$locationProvider){
+	 	$routeProvider
+	 	 .when('/',{
+	 	 	templateUrl:'views/home/home.html',
+	 	 	controller:'homeCtrl'
+	 	 })
+	 	 .when('/works',{
+	 	 	templateUrl:'/views/works/works.html',
+	 	 	controller:'worksCtrl'
+	 	 })
+	 	 .when('/tech',{
+	 	 	templateUrl:'/views/tech/tech.html',
+	 	 	controller:'techCtrl'
+	 	 })
+	 	 .when('/works/recipeBook',{
+	 	 	templateUrl:'/views/works/recipeBook/mainPage.html',
+	 	 	controller:'recipesCtrl'
+	 	 })
+	 	 .when('/works/recipes',{
+	 	 	templateUrl:'/views/works/recipeBook/recipesList/recipesList.html',
+	 	 	controller:'recipesCtrl'
+	 	 })
+	 	 .when('/works/recipes/:recipeid',{
+	 	 	templateUrl:'/views/works/recipeBook/recipe/recipe.html',
+	 	 	controller:'recipeCtrl'
+	 	 })
+	 	 .when('/works/recipes/:recipeid/edit',{
+	 	 	templateUrl:'/views/works/recipeBook/edit/editRecipe.html',
+	 	 	controller:'recipeCtrl'
+	 	 })
+	 	 .when('/works/recipes/:recipeid/history',{
+	 	 	templateUrl:'/views/works/recipeBook/history/recipeHistory.html',
+	 	 	controller:'recipeCtrl'
+	 	 })
+	 	 .when('/works/weatherApp',{
+	 	 	templateUrl:'/views/works/weatherApp/weatherApp.html',
+	 	 	controller:'weatherAppCtrl'
+	 	 })
+	 	 .otherwise({redirectTo:'/'});
+	 	 $locationProvider.html5Mode({
+	     enabled:true,
+         requireBase:false});
+	 }
+	 angular.module('myPortfolio').config(['$routeProvider','$locationProvider',config])
+})();
