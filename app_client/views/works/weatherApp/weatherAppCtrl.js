@@ -11,6 +11,7 @@
      $scope.submitForm=function(){
        $http.get('https://api.openweathermap.org/data/2.5/weather?q='+$scope.weather.city+'&units=metric&APPID=8d9223b647133c51d397626dcaa319ce')
        .then(function(response){
+        console.log(response);
          $scope.cities.push(response.data);
        })
      }
