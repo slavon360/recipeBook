@@ -5,7 +5,8 @@
 	 function apiHandlerService($http,historyRecipeService){
 	 	var cx = '011077741888233176997:of7fjkpolfw',
 	 	    key = 'AIzaSyDLD44qvwYnkayTY-8iuwDV9M1J5r4NF0M',
-	 	    pixabayKey='4633909-917c4f4afbf27eecf77953c87';
+	 	    pixabayKey='4633909-917c4f4afbf27eecf77953c87',
+	 	    corsHeroku='https://cors-anywhere.herokuapp.com/';
 	 	    
 	 	var getHomePage=function(){
 	 		return $http.get('/api');
@@ -43,6 +44,9 @@
 	 	var deleteHistoryItem=function(recipeid,recipe_id){
 	 		return $http.delete('/api/works/recipes/'+recipeid+'/history/'+recipe_id);
 	 	}
+	 	var getWeatherInfo=function(city){
+	 		return $http.get(corsHeroku+'http://api.openweathermap.org/data/2.5/weather?q='+city+'&units=metric&APPID=8d9223b647133c51d397626dcaa319ce')
+	 	}
 	 	return{
 	 		getWorksList:getWorksList,
 	 		getHomePage:getHomePage,
@@ -55,7 +59,8 @@
 	 		updateRecipe:updateRecipe,
 	 		deleteRecipe:deleteRecipe,
 	 		getRecipeHistory:getRecipeHistory,
-	 		deleteHistoryItem:deleteHistoryItem
+	 		deleteHistoryItem:deleteHistoryItem,
+	 		getWeatherInfo:getWeatherInfo
 	 	}
 	 }
 })();

@@ -34,6 +34,7 @@ var appClientFiles=[
 'app_client/common/services/imgHandler.service.js',
 'app_client/common/services/historyRecipe.service.js',
 'app_client/common/services/factories/factoryCities.factory.js',
+'app_client/common/services/pageHandler.service.js',
 'app_client/common/directives/footer-earth/footer.earth.directive.js',
 'app_client/common/directives/navigation/navigation.directive.js',
 'app_client/common/directives/earth-process/earthProcess.directive.js',

@@ -1,17 +1,16 @@
 (function(){
 	angular.module('myPortfolio')
 	 .controller('weatherAppCtrl',weatherAppCtrl);
-	 weatherAppCtrl.$inject=['$scope','$http','factoryCities'];
+	 weatherAppCtrl.$inject=['$scope','$http','factoryCities','apiHandlerService'];
 
-	 function weatherAppCtrl($scope,$http,factoryCities){
+	 function weatherAppCtrl($scope,$http,factoryCities,apiHandlerService){
      $scope.cities=[];
      $scope.clearList=function(){
         $scope.cities=factoryCities.removeList($scope.cities);
      }
      $scope.submitForm=function(){
-      console.log($scope.weather.city)
-       $http.get('https://cors-anywhere.herokuapp.com/http://api.openweathermap.org/data/2.5/weather?q='+$scope.weather.city+'&units=metric&APPID=8d9223b647133c51d397626dcaa319ce')
-       .then(function(response){
+      apiHandlerService.getWeatherInfo($scope.weather.city)
+        .then(function(response){
         console.log(response);
          $scope.cities.push(response.data);
        },function(error){
