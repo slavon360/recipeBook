@@ -3,7 +3,7 @@
 	 .directive('chooseImages',chooseImages);
 	 chooseImages.$inject=['apiHandlerService','$compile','imgHandler','$timeout'];
 	 function chooseImages(apiHandlerService,$compile,imgHandler,$timeout){
-	 	var template='<ng-include src="\'/common/directives/new-recipe/searchEngine.template.html\'"></ng-include>',
+	 	var template='<div class="parent-images-grid-wrapper" ng-include="\'/common/directives/new-recipe/searchEngine.template.html\'"></div>',
 	 	    prevNameOfRecipe;
 	 	
 	 	return{

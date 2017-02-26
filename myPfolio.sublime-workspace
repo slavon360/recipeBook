@@ -4,6 +4,38 @@
 		"selected_items":
 		[
 			[
+				"page",
+				"pageService"
+			],
+			[
+				"marg",
+				"margin-bottom"
+			],
+			[
+				"margi",
+				"margin-right"
+			],
+			[
+				"tran",
+				"transform"
+			],
+			[
+				"l",
+				"linear"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"backgr",
+				"background-size"
+			],
+			[
+				"di",
+				"div"
+			],
+			[
 				"facto",
 				"factoryCities"
 			],
@@ -22,10 +54,6 @@
 			[
 				"padd",
 				"padding-left"
-			],
-			[
-				"margi",
-				"margin-bottom"
 			],
 			[
 				"tr",
@@ -118,10 +146,6 @@
 			[
 				"recipe",
 				"recipeHistoryList"
-			],
-			[
-				"marg",
-				"margin-top"
 			],
 			[
 				"padding",
@@ -236,16 +260,8 @@
 				"text-align"
 			],
 			[
-				"backgr",
-				"background"
-			],
-			[
 				"el",
 				"elem"
-			],
-			[
-				"page",
-				"pageState"
 			],
 			[
 				"new",
@@ -400,10 +416,6 @@
 				"requestOptions"
 			],
 			[
-				"mar",
-				"margin"
-			],
-			[
 				"method",
 				"methodOverride"
 			],
@@ -480,10 +492,6 @@
 				"formData"
 			],
 			[
-				"di",
-				"div	Tag"
-			],
-			[
 				"for",
 				"formData"
 			],
@@ -506,14 +514,6 @@
 			[
 				"locatio",
 				"location"
-			],
-			[
-				"locationBy",
-				"locationById"
-			],
-			[
-				"direc",
-				"directive"
 			]
 		]
 	},
@@ -523,48 +523,85 @@
 			"file": "app.js",
 			"settings":
 			{
-				"buffer_size": 3255,
+				"buffer_size": 3443,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "app_api/routes/index.js",
+			"file": "app_client/common/services/pageHandler.service.js",
 			"settings":
 			{
-				"buffer_size": 826,
+				"buffer_size": 389,
+				"line_ending": "Windows",
+				"name": "pageHandler.service.js"
+			}
+		},
+		{
+			"file": "app_client/views/works/recipeBook/recipesList/recipesCtrl.js",
+			"settings":
+			{
+				"buffer_size": 792,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "app_client/app.js",
+			"file": "app_client/common/directives/pageState/page-display.directive.js",
 			"settings":
 			{
-				"buffer_size": 1492,
+				"buffer_size": 503,
+				"line_ending": "Windows",
+				"name": "page-display.directive.js"
+			}
+		},
+		{
+			"contents": ".rect-auto,\n.c100.p51 .slice,\n.c100.p52 .slice,\n.c100.p53 .slice,\n.c100.p54 .slice,\n.c100.p55 .slice,\n.c100.p56 .slice,\n.c100.p57 .slice,\n.c100.p58 .slice,\n.c100.p59 .slice,\n.c100.p60 .slice,\n.c100.p61 .slice,\n.c100.p62 .slice,\n.c100.p63 .slice,\n.c100.p64 .slice,\n.c100.p65 .slice,\n.c100.p66 .slice,\n.c100.p67 .slice,\n.c100.p68 .slice,\n.c100.p69 .slice,\n.c100.p70 .slice,\n.c100.p71 .slice,\n.c100.p72 .slice,\n.c100.p73 .slice,\n.c100.p74 .slice,\n.c100.p75 .slice,\n.c100.p76 .slice,\n.c100.p77 .slice,\n.c100.p78 .slice,\n.c100.p79 .slice,\n.c100.p80 .slice,\n.c100.p81 .slice,\n.c100.p82 .slice,\n.c100.p83 .slice,\n.c100.p84 .slice,\n.c100.p85 .slice,\n.c100.p86 .slice,\n.c100.p87 .slice,\n.c100.p88 .slice,\n.c100.p89 .slice,\n.c100.p90 .slice,\n.c100.p91 .slice,\n.c100.p92 .slice,\n.c100.p93 .slice,\n.c100.p94 .slice,\n.c100.p95 .slice,\n.c100.p96 .slice,\n.c100.p97 .slice,\n.c100.p98 .slice,\n.c100.p99 .slice,\n.c100.p100 .slice {\n  clip: rect(auto, auto, auto, auto);\n}\n.pie,\n.c100 .bar,\n.c100.p51 .fill,\n.c100.p52 .fill,\n.c100.p53 .fill,\n.c100.p54 .fill,\n.c100.p55 .fill,\n.c100.p56 .fill,\n.c100.p57 .fill,\n.c100.p58 .fill,\n.c100.p59 .fill,\n.c100.p60 .fill,\n.c100.p61 .fill,\n.c100.p62 .fill,\n.c100.p63 .fill,\n.c100.p64 .fill,\n.c100.p65 .fill,\n.c100.p66 .fill,\n.c100.p67 .fill,\n.c100.p68 .fill,\n.c100.p69 .fill,\n.c100.p70 .fill,\n.c100.p71 .fill,\n.c100.p72 .fill,\n.c100.p73 .fill,\n.c100.p74 .fill,\n.c100.p75 .fill,\n.c100.p76 .fill,\n.c100.p77 .fill,\n.c100.p78 .fill,\n.c100.p79 .fill,\n.c100.p80 .fill,\n.c100.p81 .fill,\n.c100.p82 .fill,\n.c100.p83 .fill,\n.c100.p84 .fill,\n.c100.p85 .fill,\n.c100.p86 .fill,\n.c100.p87 .fill,\n.c100.p88 .fill,\n.c100.p89 .fill,\n.c100.p90 .fill,\n.c100.p91 .fill,\n.c100.p92 .fill,\n.c100.p93 .fill,\n.c100.p94 .fill,\n.c100.p95 .fill,\n.c100.p96 .fill,\n.c100.p97 .fill,\n.c100.p98 .fill,\n.c100.p99 .fill,\n.c100.p100 .fill {\n  position: absolute;\n  border: 0.08em solid #307bbb;\n  width: 0.84em;\n  height: 0.84em;\n  clip: rect(0em, 0.5em, 1em, 0em);\n  border-radius: 50%;\n  -webkit-transform: rotate(0deg);\n  -moz-transform: rotate(0deg);\n  -ms-transform: rotate(0deg);\n  -o-transform: rotate(0deg);\n  transform: rotate(0deg);\n}\n.pie-fill,\n.c100.p51 .bar:after,\n.c100.p51 .fill,\n.c100.p52 .bar:after,\n.c100.p52 .fill,\n.c100.p53 .bar:after,\n.c100.p53 .fill,\n.c100.p54 .bar:after,\n.c100.p54 .fill,\n.c100.p55 .bar:after,\n.c100.p55 .fill,\n.c100.p56 .bar:after,\n.c100.p56 .fill,\n.c100.p57 .bar:after,\n.c100.p57 .fill,\n.c100.p58 .bar:after,\n.c100.p58 .fill,\n.c100.p59 .bar:after,\n.c100.p59 .fill,\n.c100.p60 .bar:after,\n.c100.p60 .fill,\n.c100.p61 .bar:after,\n.c100.p61 .fill,\n.c100.p62 .bar:after,\n.c100.p62 .fill,\n.c100.p63 .bar:after,\n.c100.p63 .fill,\n.c100.p64 .bar:after,\n.c100.p64 .fill,\n.c100.p65 .bar:after,\n.c100.p65 .fill,\n.c100.p66 .bar:after,\n.c100.p66 .fill,\n.c100.p67 .bar:after,\n.c100.p67 .fill,\n.c100.p68 .bar:after,\n.c100.p68 .fill,\n.c100.p69 .bar:after,\n.c100.p69 .fill,\n.c100.p70 .bar:after,\n.c100.p70 .fill,\n.c100.p71 .bar:after,\n.c100.p71 .fill,\n.c100.p72 .bar:after,\n.c100.p72 .fill,\n.c100.p73 .bar:after,\n.c100.p73 .fill,\n.c100.p74 .bar:after,\n.c100.p74 .fill,\n.c100.p75 .bar:after,\n.c100.p75 .fill,\n.c100.p76 .bar:after,\n.c100.p76 .fill,\n.c100.p77 .bar:after,\n.c100.p77 .fill,\n.c100.p78 .bar:after,\n.c100.p78 .fill,\n.c100.p79 .bar:after,\n.c100.p79 .fill,\n.c100.p80 .bar:after,\n.c100.p80 .fill,\n.c100.p81 .bar:after,\n.c100.p81 .fill,\n.c100.p82 .bar:after,\n.c100.p82 .fill,\n.c100.p83 .bar:after,\n.c100.p83 .fill,\n.c100.p84 .bar:after,\n.c100.p84 .fill,\n.c100.p85 .bar:after,\n.c100.p85 .fill,\n.c100.p86 .bar:after,\n.c100.p86 .fill,\n.c100.p87 .bar:after,\n.c100.p87 .fill,\n.c100.p88 .bar:after,\n.c100.p88 .fill,\n.c100.p89 .bar:after,\n.c100.p89 .fill,\n.c100.p90 .bar:after,\n.c100.p90 .fill,\n.c100.p91 .bar:after,\n.c100.p91 .fill,\n.c100.p92 .bar:after,\n.c100.p92 .fill,\n.c100.p93 .bar:after,\n.c100.p93 .fill,\n.c100.p94 .bar:after,\n.c100.p94 .fill,\n.c100.p95 .bar:after,\n.c100.p95 .fill,\n.c100.p96 .bar:after,\n.c100.p96 .fill,\n.c100.p97 .bar:after,\n.c100.p97 .fill,\n.c100.p98 .bar:after,\n.c100.p98 .fill,\n.c100.p99 .bar:after,\n.c100.p99 .fill,\n.c100.p100 .bar:after,\n.c100.p100 .fill {\n  -webkit-transform: rotate(180deg);\n  -moz-transform: rotate(180deg);\n  -ms-transform: rotate(180deg);\n  -o-transform: rotate(180deg);\n  transform: rotate(180deg);\n}\n.c100 {\n  position: relative;\n  font-size: 120px;\n  width: 1em;\n  height: 1em;\n  border-radius: 50%;\n  float: left;\n  margin: 0 0.1em 0.1em 0;\n  background-color: #cccccc;\n}\n.c100 *,\n.c100 *:before,\n.c100 *:after {\n  -webkit-box-sizing: content-box;\n  -moz-box-sizing: content-box;\n  box-sizing: content-box;\n}\n.c100.center {\n  float: none;\n  margin: 0 auto;\n}\n.c100.big {\n  font-size: 240px;\n}\n.c100.small {\n  font-size: 80px;\n}\n.c100 > span {\n  position: absolute;\n  width: 100%;\n  z-index: 1;\n  left: 0;\n  top: 0;\n  width: 5em;\n  line-height: 5em;\n  font-size: 0.2em;\n  color: #cccccc;\n  display: block;\n  text-align: center;\n  white-space: nowrap;\n  -webkit-transition-property: all;\n  -moz-transition-property: all;\n  -o-transition-property: all;\n  transition-property: all;\n  -webkit-transition-duration: 0.2s;\n  -moz-transition-duration: 0.2s;\n  -o-transition-duration: 0.2s;\n  transition-duration: 0.2s;\n  -webkit-transition-timing-function: ease-out;\n  -moz-transition-timing-function: ease-out;\n  -o-transition-timing-function: ease-out;\n  transition-timing-function: ease-out;\n}\n.c100:after {\n  position: absolute;\n  top: 0.08em;\n  left: 0.08em;\n  display: block;\n  content: \" \";\n  border-radius: 50%;\n  background-color: #f5f5f5;\n  width: 0.84em;\n  height: 0.84em;\n  -webkit-transition-property: all;\n  -moz-transition-property: all;\n  -o-transition-property: all;\n  transition-property: all;\n  -webkit-transition-duration: 0.2s;\n  -moz-transition-duration: 0.2s;\n  -o-transition-duration: 0.2s;\n  transition-duration: 0.2s;\n  -webkit-transition-timing-function: ease-in;\n  -moz-transition-timing-function: ease-in;\n  -o-transition-timing-function: ease-in;\n  transition-timing-function: ease-in;\n}\n.c100 .slice {\n  position: absolute;\n  width: 1em;\n  height: 1em;\n  clip: rect(0em, 1em, 1em, 0.5em);\n}\n.c100.p1 .bar {\n  -webkit-transform: rotate(3.6deg);\n  -moz-transform: rotate(3.6deg);\n  -ms-transform: rotate(3.6deg);\n  -o-transform: rotate(3.6deg);\n  transform: rotate(3.6deg);\n}\n.c100.p2 .bar {\n  -webkit-transform: rotate(7.2deg);\n  -moz-transform: rotate(7.2deg);\n  -ms-transform: rotate(7.2deg);\n  -o-transform: rotate(7.2deg);\n  transform: rotate(7.2deg);\n}\n.c100.p3 .bar {\n  -webkit-transform: rotate(10.8deg);\n  -moz-transform: rotate(10.8deg);\n  -ms-transform: rotate(10.8deg);\n  -o-transform: rotate(10.8deg);\n  transform: rotate(10.8deg);\n}\n.c100.p4 .bar {\n  -webkit-transform: rotate(14.4deg);\n  -moz-transform: rotate(14.4deg);\n  -ms-transform: rotate(14.4deg);\n  -o-transform: rotate(14.4deg);\n  transform: rotate(14.4deg);\n}\n.c100.p5 .bar {\n  -webkit-transform: rotate(18deg);\n  -moz-transform: rotate(18deg);\n  -ms-transform: rotate(18deg);\n  -o-transform: rotate(18deg);\n  transform: rotate(18deg);\n}\n.c100.p6 .bar {\n  -webkit-transform: rotate(21.6deg);\n  -moz-transform: rotate(21.6deg);\n  -ms-transform: rotate(21.6deg);\n  -o-transform: rotate(21.6deg);\n  transform: rotate(21.6deg);\n}\n.c100.p7 .bar {\n  -webkit-transform: rotate(25.2deg);\n  -moz-transform: rotate(25.2deg);\n  -ms-transform: rotate(25.2deg);\n  -o-transform: rotate(25.2deg);\n  transform: rotate(25.2deg);\n}\n.c100.p8 .bar {\n  -webkit-transform: rotate(28.8deg);\n  -moz-transform: rotate(28.8deg);\n  -ms-transform: rotate(28.8deg);\n  -o-transform: rotate(28.8deg);\n  transform: rotate(28.8deg);\n}\n.c100.p9 .bar {\n  -webkit-transform: rotate(32.4deg);\n  -moz-transform: rotate(32.4deg);\n  -ms-transform: rotate(32.4deg);\n  -o-transform: rotate(32.4deg);\n  transform: rotate(32.4deg);\n}\n.c100.p10 .bar {\n  -webkit-transform: rotate(36deg);\n  -moz-transform: rotate(36deg);\n  -ms-transform: rotate(36deg);\n  -o-transform: rotate(36deg);\n  transform: rotate(36deg);\n}\n.c100.p11 .bar {\n  -webkit-transform: rotate(39.6deg);\n  -moz-transform: rotate(39.6deg);\n  -ms-transform: rotate(39.6deg);\n  -o-transform: rotate(39.6deg);\n  transform: rotate(39.6deg);\n}\n.c100.p12 .bar {\n  -webkit-transform: rotate(43.2deg);\n  -moz-transform: rotate(43.2deg);\n  -ms-transform: rotate(43.2deg);\n  -o-transform: rotate(43.2deg);\n  transform: rotate(43.2deg);\n}\n.c100.p13 .bar {\n  -webkit-transform: rotate(46.800000000000004deg);\n  -moz-transform: rotate(46.800000000000004deg);\n  -ms-transform: rotate(46.800000000000004deg);\n  -o-transform: rotate(46.800000000000004deg);\n  transform: rotate(46.800000000000004deg);\n}\n.c100.p14 .bar {\n  -webkit-transform: rotate(50.4deg);\n  -moz-transform: rotate(50.4deg);\n  -ms-transform: rotate(50.4deg);\n  -o-transform: rotate(50.4deg);\n  transform: rotate(50.4deg);\n}\n.c100.p15 .bar {\n  -webkit-transform: rotate(54deg);\n  -moz-transform: rotate(54deg);\n  -ms-transform: rotate(54deg);\n  -o-transform: rotate(54deg);\n  transform: rotate(54deg);\n}\n.c100.p16 .bar {\n  -webkit-transform: rotate(57.6deg);\n  -moz-transform: rotate(57.6deg);\n  -ms-transform: rotate(57.6deg);\n  -o-transform: rotate(57.6deg);\n  transform: rotate(57.6deg);\n}\n.c100.p17 .bar {\n  -webkit-transform: rotate(61.2deg);\n  -moz-transform: rotate(61.2deg);\n  -ms-transform: rotate(61.2deg);\n  -o-transform: rotate(61.2deg);\n  transform: rotate(61.2deg);\n}\n.c100.p18 .bar {\n  -webkit-transform: rotate(64.8deg);\n  -moz-transform: rotate(64.8deg);\n  -ms-transform: rotate(64.8deg);\n  -o-transform: rotate(64.8deg);\n  transform: rotate(64.8deg);\n}\n.c100.p19 .bar {\n  -webkit-transform: rotate(68.4deg);\n  -moz-transform: rotate(68.4deg);\n  -ms-transform: rotate(68.4deg);\n  -o-transform: rotate(68.4deg);\n  transform: rotate(68.4deg);\n}\n.c100.p20 .bar {\n  -webkit-transform: rotate(72deg);\n  -moz-transform: rotate(72deg);\n  -ms-transform: rotate(72deg);\n  -o-transform: rotate(72deg);\n  transform: rotate(72deg);\n}\n.c100.p21 .bar {\n  -webkit-transform: rotate(75.60000000000001deg);\n  -moz-transform: rotate(75.60000000000001deg);\n  -ms-transform: rotate(75.60000000000001deg);\n  -o-transform: rotate(75.60000000000001deg);\n  transform: rotate(75.60000000000001deg);\n}\n.c100.p22 .bar {\n  -webkit-transform: rotate(79.2deg);\n  -moz-transform: rotate(79.2deg);\n  -ms-transform: rotate(79.2deg);\n  -o-transform: rotate(79.2deg);\n  transform: rotate(79.2deg);\n}\n.c100.p23 .bar {\n  -webkit-transform: rotate(82.8deg);\n  -moz-transform: rotate(82.8deg);\n  -ms-transform: rotate(82.8deg);\n  -o-transform: rotate(82.8deg);\n  transform: rotate(82.8deg);\n}\n.c100.p24 .bar {\n  -webkit-transform: rotate(86.4deg);\n  -moz-transform: rotate(86.4deg);\n  -ms-transform: rotate(86.4deg);\n  -o-transform: rotate(86.4deg);\n  transform: rotate(86.4deg);\n}\n.c100.p25 .bar {\n  -webkit-transform: rotate(90deg);\n  -moz-transform: rotate(90deg);\n  -ms-transform: rotate(90deg);\n  -o-transform: rotate(90deg);\n  transform: rotate(90deg);\n}\n.c100.p26 .bar {\n  -webkit-transform: rotate(93.60000000000001deg);\n  -moz-transform: rotate(93.60000000000001deg);\n  -ms-transform: rotate(93.60000000000001deg);\n  -o-transform: rotate(93.60000000000001deg);\n  transform: rotate(93.60000000000001deg);\n}\n.c100.p27 .bar {\n  -webkit-transform: rotate(97.2deg);\n  -moz-transform: rotate(97.2deg);\n  -ms-transform: rotate(97.2deg);\n  -o-transform: rotate(97.2deg);\n  transform: rotate(97.2deg);\n}\n.c100.p28 .bar {\n  -webkit-transform: rotate(100.8deg);\n  -moz-transform: rotate(100.8deg);\n  -ms-transform: rotate(100.8deg);\n  -o-transform: rotate(100.8deg);\n  transform: rotate(100.8deg);\n}\n.c100.p29 .bar {\n  -webkit-transform: rotate(104.4deg);\n  -moz-transform: rotate(104.4deg);\n  -ms-transform: rotate(104.4deg);\n  -o-transform: rotate(104.4deg);\n  transform: rotate(104.4deg);\n}\n.c100.p30 .bar {\n  -webkit-transform: rotate(108deg);\n  -moz-transform: rotate(108deg);\n  -ms-transform: rotate(108deg);\n  -o-transform: rotate(108deg);\n  transform: rotate(108deg);\n}\n.c100.p31 .bar {\n  -webkit-transform: rotate(111.60000000000001deg);\n  -moz-transform: rotate(111.60000000000001deg);\n  -ms-transform: rotate(111.60000000000001deg);\n  -o-transform: rotate(111.60000000000001deg);\n  transform: rotate(111.60000000000001deg);\n}\n.c100.p32 .bar {\n  -webkit-transform: rotate(115.2deg);\n  -moz-transform: rotate(115.2deg);\n  -ms-transform: rotate(115.2deg);\n  -o-transform: rotate(115.2deg);\n  transform: rotate(115.2deg);\n}\n.c100.p33 .bar {\n  -webkit-transform: rotate(118.8deg);\n  -moz-transform: rotate(118.8deg);\n  -ms-transform: rotate(118.8deg);\n  -o-transform: rotate(118.8deg);\n  transform: rotate(118.8deg);\n}\n.c100.p34 .bar {\n  -webkit-transform: rotate(122.4deg);\n  -moz-transform: rotate(122.4deg);\n  -ms-transform: rotate(122.4deg);\n  -o-transform: rotate(122.4deg);\n  transform: rotate(122.4deg);\n}\n.c100.p35 .bar {\n  -webkit-transform: rotate(126deg);\n  -moz-transform: rotate(126deg);\n  -ms-transform: rotate(126deg);\n  -o-transform: rotate(126deg);\n  transform: rotate(126deg);\n}\n.c100.p36 .bar {\n  -webkit-transform: rotate(129.6deg);\n  -moz-transform: rotate(129.6deg);\n  -ms-transform: rotate(129.6deg);\n  -o-transform: rotate(129.6deg);\n  transform: rotate(129.6deg);\n}\n.c100.p37 .bar {\n  -webkit-transform: rotate(133.20000000000002deg);\n  -moz-transform: rotate(133.20000000000002deg);\n  -ms-transform: rotate(133.20000000000002deg);\n  -o-transform: rotate(133.20000000000002deg);\n  transform: rotate(133.20000000000002deg);\n}\n.c100.p38 .bar {\n  -webkit-transform: rotate(136.8deg);\n  -moz-transform: rotate(136.8deg);\n  -ms-transform: rotate(136.8deg);\n  -o-transform: rotate(136.8deg);\n  transform: rotate(136.8deg);\n}\n.c100.p39 .bar {\n  -webkit-transform: rotate(140.4deg);\n  -moz-transform: rotate(140.4deg);\n  -ms-transform: rotate(140.4deg);\n  -o-transform: rotate(140.4deg);\n  transform: rotate(140.4deg);\n}\n.c100.p40 .bar {\n  -webkit-transform: rotate(144deg);\n  -moz-transform: rotate(144deg);\n  -ms-transform: rotate(144deg);\n  -o-transform: rotate(144deg);\n  transform: rotate(144deg);\n}\n.c100.p41 .bar {\n  -webkit-transform: rotate(147.6deg);\n  -moz-transform: rotate(147.6deg);\n  -ms-transform: rotate(147.6deg);\n  -o-transform: rotate(147.6deg);\n  transform: rotate(147.6deg);\n}\n.c100.p42 .bar {\n  -webkit-transform: rotate(151.20000000000002deg);\n  -moz-transform: rotate(151.20000000000002deg);\n  -ms-transform: rotate(151.20000000000002deg);\n  -o-transform: rotate(151.20000000000002deg);\n  transform: rotate(151.20000000000002deg);\n}\n.c100.p43 .bar {\n  -webkit-transform: rotate(154.8deg);\n  -moz-transform: rotate(154.8deg);\n  -ms-transform: rotate(154.8deg);\n  -o-transform: rotate(154.8deg);\n  transform: rotate(154.8deg);\n}\n.c100.p44 .bar {\n  -webkit-transform: rotate(158.4deg);\n  -moz-transform: rotate(158.4deg);\n  -ms-transform: rotate(158.4deg);\n  -o-transform: rotate(158.4deg);\n  transform: rotate(158.4deg);\n}\n.c100.p45 .bar {\n  -webkit-transform: rotate(162deg);\n  -moz-transform: rotate(162deg);\n  -ms-transform: rotate(162deg);\n  -o-transform: rotate(162deg);\n  transform: rotate(162deg);\n}\n.c100.p46 .bar {\n  -webkit-transform: rotate(165.6deg);\n  -moz-transform: rotate(165.6deg);\n  -ms-transform: rotate(165.6deg);\n  -o-transform: rotate(165.6deg);\n  transform: rotate(165.6deg);\n}\n.c100.p47 .bar {\n  -webkit-transform: rotate(169.20000000000002deg);\n  -moz-transform: rotate(169.20000000000002deg);\n  -ms-transform: rotate(169.20000000000002deg);\n  -o-transform: rotate(169.20000000000002deg);\n  transform: rotate(169.20000000000002deg);\n}\n.c100.p48 .bar {\n  -webkit-transform: rotate(172.8deg);\n  -moz-transform: rotate(172.8deg);\n  -ms-transform: rotate(172.8deg);\n  -o-transform: rotate(172.8deg);\n  transform: rotate(172.8deg);\n}\n.c100.p49 .bar {\n  -webkit-transform: rotate(176.4deg);\n  -moz-transform: rotate(176.4deg);\n  -ms-transform: rotate(176.4deg);\n  -o-transform: rotate(176.4deg);\n  transform: rotate(176.4deg);\n}\n.c100.p50 .bar {\n  -webkit-transform: rotate(180deg);\n  -moz-transform: rotate(180deg);\n  -ms-transform: rotate(180deg);\n  -o-transform: rotate(180deg);\n  transform: rotate(180deg);\n}\n.c100.p51 .bar {\n  -webkit-transform: rotate(183.6deg);\n  -moz-transform: rotate(183.6deg);\n  -ms-transform: rotate(183.6deg);\n  -o-transform: rotate(183.6deg);\n  transform: rotate(183.6deg);\n}\n.c100.p52 .bar {\n  -webkit-transform: rotate(187.20000000000002deg);\n  -moz-transform: rotate(187.20000000000002deg);\n  -ms-transform: rotate(187.20000000000002deg);\n  -o-transform: rotate(187.20000000000002deg);\n  transform: rotate(187.20000000000002deg);\n}\n.c100.p53 .bar {\n  -webkit-transform: rotate(190.8deg);\n  -moz-transform: rotate(190.8deg);\n  -ms-transform: rotate(190.8deg);\n  -o-transform: rotate(190.8deg);\n  transform: rotate(190.8deg);\n}\n.c100.p54 .bar {\n  -webkit-transform: rotate(194.4deg);\n  -moz-transform: rotate(194.4deg);\n  -ms-transform: rotate(194.4deg);\n  -o-transform: rotate(194.4deg);\n  transform: rotate(194.4deg);\n}\n.c100.p55 .bar {\n  -webkit-transform: rotate(198deg);\n  -moz-transform: rotate(198deg);\n  -ms-transform: rotate(198deg);\n  -o-transform: rotate(198deg);\n  transform: rotate(198deg);\n}\n.c100.p56 .bar {\n  -webkit-transform: rotate(201.6deg);\n  -moz-transform: rotate(201.6deg);\n  -ms-transform: rotate(201.6deg);\n  -o-transform: rotate(201.6deg);\n  transform: rotate(201.6deg);\n}\n.c100.p57 .bar {\n  -webkit-transform: rotate(205.20000000000002deg);\n  -moz-transform: rotate(205.20000000000002deg);\n  -ms-transform: rotate(205.20000000000002deg);\n  -o-transform: rotate(205.20000000000002deg);\n  transform: rotate(205.20000000000002deg);\n}\n.c100.p58 .bar {\n  -webkit-transform: rotate(208.8deg);\n  -moz-transform: rotate(208.8deg);\n  -ms-transform: rotate(208.8deg);\n  -o-transform: rotate(208.8deg);\n  transform: rotate(208.8deg);\n}\n.c100.p59 .bar {\n  -webkit-transform: rotate(212.4deg);\n  -moz-transform: rotate(212.4deg);\n  -ms-transform: rotate(212.4deg);\n  -o-transform: rotate(212.4deg);\n  transform: rotate(212.4deg);\n}\n.c100.p60 .bar {\n  -webkit-transform: rotate(216deg);\n  -moz-transform: rotate(216deg);\n  -ms-transform: rotate(216deg);\n  -o-transform: rotate(216deg);\n  transform: rotate(216deg);\n}\n.c100.p61 .bar {\n  -webkit-transform: rotate(219.6deg);\n  -moz-transform: rotate(219.6deg);\n  -ms-transform: rotate(219.6deg);\n  -o-transform: rotate(219.6deg);\n  transform: rotate(219.6deg);\n}\n.c100.p62 .bar {\n  -webkit-transform: rotate(223.20000000000002deg);\n  -moz-transform: rotate(223.20000000000002deg);\n  -ms-transform: rotate(223.20000000000002deg);\n  -o-transform: rotate(223.20000000000002deg);\n  transform: rotate(223.20000000000002deg);\n}\n.c100.p63 .bar {\n  -webkit-transform: rotate(226.8deg);\n  -moz-transform: rotate(226.8deg);\n  -ms-transform: rotate(226.8deg);\n  -o-transform: rotate(226.8deg);\n  transform: rotate(226.8deg);\n}\n.c100.p64 .bar {\n  -webkit-transform: rotate(230.4deg);\n  -moz-transform: rotate(230.4deg);\n  -ms-transform: rotate(230.4deg);\n  -o-transform: rotate(230.4deg);\n  transform: rotate(230.4deg);\n}\n.c100.p65 .bar {\n  -webkit-transform: rotate(234deg);\n  -moz-transform: rotate(234deg);\n  -ms-transform: rotate(234deg);\n  -o-transform: rotate(234deg);\n  transform: rotate(234deg);\n}\n.c100.p66 .bar {\n  -webkit-transform: rotate(237.6deg);\n  -moz-transform: rotate(237.6deg);\n  -ms-transform: rotate(237.6deg);\n  -o-transform: rotate(237.6deg);\n  transform: rotate(237.6deg);\n}\n.c100.p67 .bar {\n  -webkit-transform: rotate(241.20000000000002deg);\n  -moz-transform: rotate(241.20000000000002deg);\n  -ms-transform: rotate(241.20000000000002deg);\n  -o-transform: rotate(241.20000000000002deg);\n  transform: rotate(241.20000000000002deg);\n}\n.c100.p68 .bar {\n  -webkit-transform: rotate(244.8deg);\n  -moz-transform: rotate(244.8deg);\n  -ms-transform: rotate(244.8deg);\n  -o-transform: rotate(244.8deg);\n  transform: rotate(244.8deg);\n}\n.c100.p69 .bar {\n  -webkit-transform: rotate(248.4deg);\n  -moz-transform: rotate(248.4deg);\n  -ms-transform: rotate(248.4deg);\n  -o-transform: rotate(248.4deg);\n  transform: rotate(248.4deg);\n}\n.c100.p70 .bar {\n  -webkit-transform: rotate(252deg);\n  -moz-transform: rotate(252deg);\n  -ms-transform: rotate(252deg);\n  -o-transform: rotate(252deg);\n  transform: rotate(252deg);\n}\n.c100.p71 .bar {\n  -webkit-transform: rotate(255.6deg);\n  -moz-transform: rotate(255.6deg);\n  -ms-transform: rotate(255.6deg);\n  -o-transform: rotate(255.6deg);\n  transform: rotate(255.6deg);\n}\n.c100.p72 .bar {\n  -webkit-transform: rotate(259.2deg);\n  -moz-transform: rotate(259.2deg);\n  -ms-transform: rotate(259.2deg);\n  -o-transform: rotate(259.2deg);\n  transform: rotate(259.2deg);\n}\n.c100.p73 .bar {\n  -webkit-transform: rotate(262.8deg);\n  -moz-transform: rotate(262.8deg);\n  -ms-transform: rotate(262.8deg);\n  -o-transform: rotate(262.8deg);\n  transform: rotate(262.8deg);\n}\n.c100.p74 .bar {\n  -webkit-transform: rotate(266.40000000000003deg);\n  -moz-transform: rotate(266.40000000000003deg);\n  -ms-transform: rotate(266.40000000000003deg);\n  -o-transform: rotate(266.40000000000003deg);\n  transform: rotate(266.40000000000003deg);\n}\n.c100.p75 .bar {\n  -webkit-transform: rotate(270deg);\n  -moz-transform: rotate(270deg);\n  -ms-transform: rotate(270deg);\n  -o-transform: rotate(270deg);\n  transform: rotate(270deg);\n}\n.c100.p76 .bar {\n  -webkit-transform: rotate(273.6deg);\n  -moz-transform: rotate(273.6deg);\n  -ms-transform: rotate(273.6deg);\n  -o-transform: rotate(273.6deg);\n  transform: rotate(273.6deg);\n}\n.c100.p77 .bar {\n  -webkit-transform: rotate(277.2deg);\n  -moz-transform: rotate(277.2deg);\n  -ms-transform: rotate(277.2deg);\n  -o-transform: rotate(277.2deg);\n  transform: rotate(277.2deg);\n}\n.c100.p78 .bar {\n  -webkit-transform: rotate(280.8deg);\n  -moz-transform: rotate(280.8deg);\n  -ms-transform: rotate(280.8deg);\n  -o-transform: rotate(280.8deg);\n  transform: rotate(280.8deg);\n}\n.c100.p79 .bar {\n  -webkit-transform: rotate(284.40000000000003deg);\n  -moz-transform: rotate(284.40000000000003deg);\n  -ms-transform: rotate(284.40000000000003deg);\n  -o-transform: rotate(284.40000000000003deg);\n  transform: rotate(284.40000000000003deg);\n}\n.c100.p80 .bar {\n  -webkit-transform: rotate(288deg);\n  -moz-transform: rotate(288deg);\n  -ms-transform: rotate(288deg);\n  -o-transform: rotate(288deg);\n  transform: rotate(288deg);\n}\n.c100.p81 .bar {\n  -webkit-transform: rotate(291.6deg);\n  -moz-transform: rotate(291.6deg);\n  -ms-transform: rotate(291.6deg);\n  -o-transform: rotate(291.6deg);\n  transform: rotate(291.6deg);\n}\n.c100.p82 .bar {\n  -webkit-transform: rotate(295.2deg);\n  -moz-transform: rotate(295.2deg);\n  -ms-transform: rotate(295.2deg);\n  -o-transform: rotate(295.2deg);\n  transform: rotate(295.2deg);\n}\n.c100.p83 .bar {\n  -webkit-transform: rotate(298.8deg);\n  -moz-transform: rotate(298.8deg);\n  -ms-transform: rotate(298.8deg);\n  -o-transform: rotate(298.8deg);\n  transform: rotate(298.8deg);\n}\n.c100.p84 .bar {\n  -webkit-transform: rotate(302.40000000000003deg);\n  -moz-transform: rotate(302.40000000000003deg);\n  -ms-transform: rotate(302.40000000000003deg);\n  -o-transform: rotate(302.40000000000003deg);\n  transform: rotate(302.40000000000003deg);\n}\n.c100.p85 .bar {\n  -webkit-transform: rotate(306deg);\n  -moz-transform: rotate(306deg);\n  -ms-transform: rotate(306deg);\n  -o-transform: rotate(306deg);\n  transform: rotate(306deg);\n}\n.c100.p86 .bar {\n  -webkit-transform: rotate(309.6deg);\n  -moz-transform: rotate(309.6deg);\n  -ms-transform: rotate(309.6deg);\n  -o-transform: rotate(309.6deg);\n  transform: rotate(309.6deg);\n}\n.c100.p87 .bar {\n  -webkit-transform: rotate(313.2deg);\n  -moz-transform: rotate(313.2deg);\n  -ms-transform: rotate(313.2deg);\n  -o-transform: rotate(313.2deg);\n  transform: rotate(313.2deg);\n}\n.c100.p88 .bar {\n  -webkit-transform: rotate(316.8deg);\n  -moz-transform: rotate(316.8deg);\n  -ms-transform: rotate(316.8deg);\n  -o-transform: rotate(316.8deg);\n  transform: rotate(316.8deg);\n}\n.c100.p89 .bar {\n  -webkit-transform: rotate(320.40000000000003deg);\n  -moz-transform: rotate(320.40000000000003deg);\n  -ms-transform: rotate(320.40000000000003deg);\n  -o-transform: rotate(320.40000000000003deg);\n  transform: rotate(320.40000000000003deg);\n}\n.c100.p90 .bar {\n  -webkit-transform: rotate(324deg);\n  -moz-transform: rotate(324deg);\n  -ms-transform: rotate(324deg);\n  -o-transform: rotate(324deg);\n  transform: rotate(324deg);\n}\n.c100.p91 .bar {\n  -webkit-transform: rotate(327.6deg);\n  -moz-transform: rotate(327.6deg);\n  -ms-transform: rotate(327.6deg);\n  -o-transform: rotate(327.6deg);\n  transform: rotate(327.6deg);\n}\n.c100.p92 .bar {\n  -webkit-transform: rotate(331.2deg);\n  -moz-transform: rotate(331.2deg);\n  -ms-transform: rotate(331.2deg);\n  -o-transform: rotate(331.2deg);\n  transform: rotate(331.2deg);\n}\n.c100.p93 .bar {\n  -webkit-transform: rotate(334.8deg);\n  -moz-transform: rotate(334.8deg);\n  -ms-transform: rotate(334.8deg);\n  -o-transform: rotate(334.8deg);\n  transform: rotate(334.8deg);\n}\n.c100.p94 .bar {\n  -webkit-transform: rotate(338.40000000000003deg);\n  -moz-transform: rotate(338.40000000000003deg);\n  -ms-transform: rotate(338.40000000000003deg);\n  -o-transform: rotate(338.40000000000003deg);\n  transform: rotate(338.40000000000003deg);\n}\n.c100.p95 .bar {\n  -webkit-transform: rotate(342deg);\n  -moz-transform: rotate(342deg);\n  -ms-transform: rotate(342deg);\n  -o-transform: rotate(342deg);\n  transform: rotate(342deg);\n}\n.c100.p96 .bar {\n  -webkit-transform: rotate(345.6deg);\n  -moz-transform: rotate(345.6deg);\n  -ms-transform: rotate(345.6deg);\n  -o-transform: rotate(345.6deg);\n  transform: rotate(345.6deg);\n}\n.c100.p97 .bar {\n  -webkit-transform: rotate(349.2deg);\n  -moz-transform: rotate(349.2deg);\n  -ms-transform: rotate(349.2deg);\n  -o-transform: rotate(349.2deg);\n  transform: rotate(349.2deg);\n}\n.c100.p98 .bar {\n  -webkit-transform: rotate(352.8deg);\n  -moz-transform: rotate(352.8deg);\n  -ms-transform: rotate(352.8deg);\n  -o-transform: rotate(352.8deg);\n  transform: rotate(352.8deg);\n}\n.c100.p99 .bar {\n  -webkit-transform: rotate(356.40000000000003deg);\n  -moz-transform: rotate(356.40000000000003deg);\n  -ms-transform: rotate(356.40000000000003deg);\n  -o-transform: rotate(356.40000000000003deg);\n  transform: rotate(356.40000000000003deg);\n}\n.c100.p100 .bar {\n  -webkit-transform: rotate(360deg);\n  -moz-transform: rotate(360deg);\n  -ms-transform: rotate(360deg);\n  -o-transform: rotate(360deg);\n  transform: rotate(360deg);\n}\n.c100:hover {\n  cursor: default;\n}\n.c100:hover > span {\n  width: 3.33em;\n  line-height: 3.33em;\n  font-size: 0.3em;\n  color: #307bbb;\n}\n.c100:hover:after {\n  top: 0.04em;\n  left: 0.04em;\n  width: 0.92em;\n  height: 0.92em;\n}\n.c100.dark {\n  background-color: #777777;\n}\n.c100.dark .bar,\n.c100.dark .fill {\n  border-color: #c6ff00 !important;\n}\n.c100.dark > span {\n  color: #777777;\n}\n.c100.dark:after {\n  background-color: #666666;\n}\n.c100.dark:hover > span {\n  color: #c6ff00;\n}\n.c100.green .bar,\n.c100.green .fill {\n  border-color: #4db53c !important;\n}\n.c100.green:hover > span {\n  color: #4db53c;\n}\n.c100.green.dark .bar,\n.c100.green.dark .fill {\n  border-color: #5fd400 !important;\n}\n.c100.green.dark:hover > span {\n  color: #5fd400;\n}\n.c100.orange .bar,\n.c100.orange .fill {\n  border-color: #dd9d22 !important;\n}\n.c100.orange:hover > span {\n  color: #dd9d22;\n}\n.c100.orange.dark .bar,\n.c100.orange.dark .fill {\n  border-color: #e08833 !important;\n}\n.c100.orange.dark:hover > span {\n  color: #e08833;\n}\n",
+			"file": "/C/Users/Slavon/AppData/Local/Temp/Rar$DIa0.338/circle.css",
+			"file_size": 27237,
+			"file_write_time": 131297102360000000,
+			"settings":
+			{
+				"buffer_size": 27237,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app_client/views/works/recipeBook/recipesList/recipesList.html",
+			"settings":
+			{
+				"buffer_size": 930,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "app_client/views/works/works.html",
+			"file": "public/stylesheets/home.css",
 			"settings":
 			{
-				"buffer_size": 856,
+				"buffer_size": 4488,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app_client/views/works/recipeBook/mainPage.html",
+			"settings":
+			{
+				"buffer_size": 365,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "app_client/common/directives/tech-renderer/tech-renderer.directive.js",
+			"file": "app_client/mainCtrl.js",
 			"settings":
 			{
-				"buffer_size": 1190,
+				"buffer_size": 3065,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "app_api/models/portfolio.js",
+			"file": "public/stylesheets/recipeBook/mainPage.css",
 			"settings":
 			{
-				"buffer_size": 1363,
-				"line_ending": "Windows"
+				"buffer_size": 2078,
+				"line_ending": "Unix"
 			}
 		}
 	],
@@ -608,12 +645,9 @@
 		"/E/mean/newPfolio/app_client",
 		"/E/mean/newPfolio/app_client/common",
 		"/E/mean/newPfolio/app_client/common/directives",
-		"/E/mean/newPfolio/app_client/common/directives/new-recipe",
-		"/E/mean/newPfolio/app_client/common/directives/progress-bar",
-		"/E/mean/newPfolio/app_client/common/directives/tech-renderer",
+		"/E/mean/newPfolio/app_client/common/directives/pageState",
 		"/E/mean/newPfolio/app_client/common/filters",
 		"/E/mean/newPfolio/app_client/common/services",
-		"/E/mean/newPfolio/app_client/common/services/factories",
 		"/E/mean/newPfolio/app_client/views",
 		"/E/mean/newPfolio/app_client/views/home",
 		"/E/mean/newPfolio/app_client/views/tech",
@@ -622,6 +656,7 @@
 		"/E/mean/newPfolio/app_client/views/works/recipeBook/edit",
 		"/E/mean/newPfolio/app_client/views/works/recipeBook/history",
 		"/E/mean/newPfolio/app_client/views/works/recipeBook/recipe",
+		"/E/mean/newPfolio/app_client/views/works/recipeBook/recipesList",
 		"/E/mean/newPfolio/app_client/views/works/weatherApp",
 		"/E/mean/newPfolio/public",
 		"/E/mean/newPfolio/public/stylesheets",
@@ -630,40 +665,44 @@
 	],
 	"file_history":
 	[
+		"/E/mean/newPfolio/app_client/common/directives/pageState/loadingPage.template.html",
+		"/E/mean/newPfolio/app_client/index.html",
+		"/E/mean/newPfolio/app_client/common/directives/progress-bar/progress-bar.directive.js",
+		"/E/mean/newPfolio/app_client/views/tech/tech.html",
+		"/E/mean/newPfolio/app_client/views/works/recipeBook/recipesList/recipesList.html",
+		"/E/mean/newPfolio/app_client/views/works/recipeBook/recipesList/recipesCtrl.js",
 		"/E/mean/newPfolio/app_client/views/works/weatherApp/weatherAppCtrl.js",
+		"/E/mean/newPfolio/app_client/common/directives/new-recipe/googleApiImages.directive.js",
+		"/E/mean/newPfolio/public/stylesheets/works.css",
+		"/E/mean/newPfolio/public/stylesheets/recipeBook/recipe.css",
+		"/E/mean/newPfolio/app_client/common/directives/myContacts/myContacts.directive.js",
+		"/E/mean/newPfolio/public/stylesheets/recipeBook/recipesList.css",
+		"/E/mean/newPfolio/package.json",
+		"/E/mean/newPfolio/app_client/common/directives/new-recipe/searchEngine.template.html",
+		"/E/mean/newPfolio/Procfile",
+		"/E/mean/newPfolio/app_api/models/portfolio.js",
+		"/E/mean/newPfolio/app_client/common/directives/tech-renderer/tech-renderer.directive.js",
+		"/E/mean/newPfolio/app_client/views/works/works.html",
+		"/E/mean/newPfolio/app_client/app.js",
 		"/E/mean/newPfolio/public/stylesheets/recipeBook/mainPage.css",
 		"/E/mean/newPfolio/public/stylesheets/weatherApp/weather-getter.css",
 		"/E/mean/newPfolio/app_client/views/works/weatherApp/weatherApp.html",
-		"/E/mean/newPfolio/app_client/index.html",
 		"/C/Users/Slavon/slavon360.github.io/slavon360.github.io/content/weather-getter/weather-getter.css",
 		"/C/Users/Slavon/slavon360.github.io/slavon360.github.io/app/partials/weatherGetter.html",
-		"/E/mean/newPfolio/app_api/models/portfolio.js",
 		"/C/Users/Slavon/slavon360.github.io/slavon360.github.io/app/factories/logService.js",
 		"/E/mean/newPfolio/app_client/common/services/factories/factoryCities.factory.js",
-		"/E/mean/newPfolio/app_client/common/directives/tech-renderer/tech-renderer.directive.js",
 		"/E/mean/newPfolio/app_client/mainCtrl.js",
 		"/E/mean/newPfolio/app_client/common/services/imgHandler.service.js",
 		"/C/Users/Slavon/slavon360.github.io/slavon360.github.io/app/controllers/controllers.js",
 		"/C/Users/Slavon/slavon360.github.io/slavon360.github.io/app/app.js",
-		"/E/mean/newPfolio/app_client/views/works/works.html",
-		"/E/mean/newPfolio/public/stylesheets/works.css",
-		"/E/mean/newPfolio/app_client/views/tech/tech.html",
-		"/E/mean/newPfolio/app_client/common/directives/new-recipe/googleApiImages.directive.js",
 		"/E/mean/newPfolio/app_client/views/works/recipeBook/recipe/recipeCtrl.js",
-		"/E/mean/newPfolio/app_client/views/works/recipeBook/recipesList/recipesCtrl.js",
-		"/E/mean/newPfolio/app_client/common/directives/progress-bar/progress-bar.directive.js",
-		"/E/mean/newPfolio/app_client/common/directives/new-recipe/searchEngine.template.html",
 		"/E/mean/newPfolio/app_client/views/works/recipeBook/edit/editRecipe.html",
-		"/E/mean/newPfolio/public/stylesheets/recipeBook/recipesList.css",
 		"/E/mean/newPfolio/app_api/controllers/recipesCtrl.js",
 		"/E/mean/newPfolio/app_client/views/works/recipeBook/recipe/recipe.html",
-		"/E/mean/newPfolio/public/stylesheets/recipeBook/recipe.css",
 		"/E/mean/newPfolio/app_client/common/services/apiHandler.service.js",
 		"/E/mean/newPfolio/app_client/common/directives/new-recipe/newRecipe.html",
 		"/E/mean/newPfolio/app_client/views/works/recipeBook/history/recipeHistory.html",
 		"/E/mean/newPfolio/app_client/common/services/historyRecipe.service.js",
-		"/E/mean/newPfolio/app_client/app.js",
-		"/E/mean/newPfolio/app_client/views/works/recipeBook/recipesList/recipesList.html",
 		"/E/mean/newPfolio/app_client/common/directives/new-recipe/newRecipe.directive.js",
 		"/E/mean/newPfolio/app_api/controllers/homeCtrl.js",
 		"/E/mean/newPfolio/app_api/routes/index.js",
@@ -753,11 +792,7 @@
 		"/E/mean/loc8r/app_server/controllers/others.js",
 		"/E/mean/loc8r/app_client/common/services/geolocation.service.js",
 		"/E/mean/loc8r/app_client/common/filters/formatDistance.filter.js",
-		"/E/mean/loc8r/nodemon.json",
-		"/E/mean/loc8r/package.json",
-		"/E/mean/loc8r/app_api/models/locations.js",
-		"/E/web2/freeman/testMiddle/app/directives/directives.js",
-		"/E/mean/loc8r/public/angular/rating-stars.html"
+		"/E/mean/loc8r/nodemon.json"
 	],
 	"find":
 	{
@@ -775,6 +810,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"background",
 			"historyList",
 			"recipe-history",
 			"transform",
@@ -908,7 +944,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 6,
 			"sheets":
 			[
 				{
@@ -917,15 +953,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3255,
+						"buffer_size": 3443,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1339,
-								1339
+								2071,
+								2071
 							]
 						],
 						"settings":
@@ -935,19 +971,106 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 682.0,
+						"translation.y": 486.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 9,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "app_api/routes/index.js",
-					"semi_transient": true,
+					"file": "app_client/common/services/pageHandler.service.js",
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 826,
+						"buffer_size": 389,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								56,
+								67
+							]
+						],
+						"settings":
+						{
+							"auto_name": "pageHandler.service.js",
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app_client/views/works/recipeBook/recipesList/recipesCtrl.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 792,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								786,
+								786
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app_client/common/directives/pageState/page-display.directive.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 503,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								299,
+								299
+							]
+						],
+						"settings":
+						{
+							"auto_name": "page-display.directive.js",
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 144.0,
+						"translation.y": 18.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/C/Users/Slavon/AppData/Local/Temp/Rar$DIa0.338/circle.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 27237,
 						"regions":
 						{
 						},
@@ -960,64 +1083,39 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1589.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "app_client/app.js",
+					"buffer": 5,
+					"file": "app_client/views/works/recipeBook/recipesList/recipesList.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1492,
+						"buffer_size": 930,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1278,
-								1278
+								61,
+								61
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 321.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "app_client/views/works/works.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 856,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								528,
-								528
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1027,20 +1125,79 @@
 					"type": "text"
 				},
 				{
-					"buffer": 4,
-					"file": "app_client/common/directives/tech-renderer/tech-renderer.directive.js",
+					"buffer": 6,
+					"file": "public/stylesheets/home.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1190,
+						"buffer_size": 4488,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								552,
-								552
+								428,
+								428
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1922.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "app_client/views/works/recipeBook/mainPage.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 365,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								60,
+								48
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "app_client/mainCtrl.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3065,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3032,
+								3032
 							]
 						],
 						"settings":
@@ -1048,39 +1205,40 @@
 							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
 							"translate_tabs_to_spaces": false
 						},
-						"translation.x": -0.0,
-						"translation.y": 101.0,
+						"translation.x": 0.0,
+						"translation.y": 1156.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
-					"buffer": 5,
-					"file": "app_api/models/portfolio.js",
+					"buffer": 9,
+					"file": "public/stylesheets/recipeBook/mainPage.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1363,
+						"buffer_size": 2078,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1128,
-								1128
+								127,
+								127
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 150.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 6,
 					"type": "text"
 				}
 			]

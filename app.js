@@ -42,7 +42,8 @@ var appClientFiles=[
 'app_client/common/directives/new-recipe/googleApiImages.directive.js',
 'app_client/common/directives/progress-bar/progress-bar.directive.js',
 'app_client/common/directives/tech-renderer/tech-renderer.directive.js',
-'app_client/common/directives/myContacts/myContacts.directive.js'
+'app_client/common/directives/myContacts/myContacts.directive.js',
+'app_client/common/directives/pageState/page-display.directive.js'
 ];
 
 var uglified=uglifyJs.minify(appClientFiles, {compress:false});

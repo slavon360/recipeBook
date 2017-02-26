@@ -14,6 +14,7 @@
 	transition: all 1s;
 	display: table;
 }
+
 .background{
 	display: table-cell;
 	vertical-align: middle;
@@ -22,7 +23,7 @@
 	background-size: contain !important;
 	background-repeat: no-repeat !important;
 	background-position: center !important;
-	z-index: -1;
+	z-index: 0;
 	position: relative;
 	transition: .3s;
 	cursor: default;
@@ -97,7 +98,7 @@
 }
 .tech-container{
 	margin-top: 130px;
-	overflow: auto;
+	overflow: hidden;
 }
 .section-tech{
 	font-family: 'Amatic SC', cursive;

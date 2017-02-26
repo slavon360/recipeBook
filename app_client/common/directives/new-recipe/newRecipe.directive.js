@@ -8,9 +8,9 @@
         var renderTemplate=function(scope){
         	if(scope.pageState.newRecipe){
         		scope.$emit('dropNewRecipe',{});
-        		return '<ng-include src="\'/views/works/recipeBook/mainPage.html\'"></ng-include>';
+        		return '<ng-include page-display msec="1000" src="\'/views/works/recipeBook/mainPage.html\'"></ng-include>';
         	}
-        	return '<ng-include src="\'/common/directives/new-recipe/newRecipe.html\'"></ng-include>';
+        	return '<div page-display msec="2000" ><ng-include src="\'/common/directives/new-recipe/newRecipe.html\'"></ng-include></div>';
         }
 	 	return{
 	 		link:function(scope,elem,attrs){

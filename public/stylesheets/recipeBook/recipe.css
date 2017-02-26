@@ -45,9 +45,13 @@
 .hist-edit-delete-panel *:hover{
 	color: #fff;
 }
-
+.parent-images-grid-wrapper{
+	position: relative;
+	z-index: 100;
+}
 .images-grid-wrapper1{
 	position: fixed;
+	z-index: 100;
 	top: 0;
 	left: 0;
 	bottom: 0;
@@ -58,13 +62,13 @@
     cursor: default;
 }
 .images-grid-wrapper2{
-display: table-cell;
-vertical-align: middle;
-text-align: center;
+	position: relative;
+	z-index: 100;
+    display: table-cell;
+    vertical-align: middle;
 }
 .images-grid{
 	display: block;
-	text-align: center;
 	margin: 0 auto;
 	height: 60%;
 	width: 70%;
@@ -186,13 +190,11 @@ text-align: center;
   height: 0; /* for horizontal scrollbars */
   color: black;
 }
-
 ::-webkit-scrollbar-track
 {
   background: rgba(0, 0, 0, 0.1);
   color: black;
 }
-
 ::-webkit-scrollbar-thumb
 {
   background: rgba(0, 0, 0, 0.5);

@@ -8,7 +8,6 @@
 	 		imgGrid:false
 	 	}
 	 	$scope.newRecipe={};
-
 	 	getHomePage();
 	 	function getHomePage(){
 	 	apiHandlerService.getHomePage()
@@ -63,6 +62,7 @@
 	 	$scope.rotationValue=function(){
 	 	return earthService.rotationValue;	
 	 	}
+
 	 	$scope.locationPathCollection=linkRenderer.locationPathCollection($location.path());
 	 	console.log('mainCtrl');
         $scope.$on('dropNewRecipe',function(event,emptyobj){
@@ -87,6 +87,6 @@
 	    		counter:counter
 	    	};
 	    	$scope.$broadcast('progressBarEvent',progrBar);
-	    })
+	    })          
 	 }
 })();

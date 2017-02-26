@@ -29,6 +29,7 @@
 	color: black;
 	font-weight: 900;
 	cursor: pointer;
+	overflow: hidden;
 }
 .recipe-item:hover, .navigation-links a:hover{
 	color: #fff !important;
