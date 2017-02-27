@@ -46,8 +46,7 @@
 	color: #fff;
 }
 .parent-images-grid-wrapper{
-	position: relative;
-	z-index: 100;
+
 }
 .images-grid-wrapper1{
 	position: fixed;
@@ -88,6 +87,7 @@
 	height: 100px;
 	margin:0 0 10px;
 	position: relative;
+	z-index: 1000;
 	cursor: pointer;
 }
 .images-grid .img-wrapper::before{
@@ -184,6 +184,7 @@
 .creation-field-text textarea{
 	outline: none;
 }
+
 ::-webkit-scrollbar
 {
   width: 28px;  /* for vertical scrollbars */

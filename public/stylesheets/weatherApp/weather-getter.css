@@ -57,11 +57,9 @@ text-align: left;
 }
 input.weather-name.ng-dirty{
 	background:rgba(0,255,0,.09);
-
 }
 input.weather-name.ng-pristine{
 	background:transparent;
-
 }
 ::-webkit-input-placeholder{
 	color: white;
@@ -80,13 +78,15 @@ input.weather-name.ng-pristine{
 		font-size: .9em;
 	}
 	.search-weather{
-		width: 25%;
+		width: 40%;
+		float: right;
 	}
 	.weather-name{
-		width: 75%;
+		width: 60%;
+		float: left;
 	}
 	.weather-list{
-		font-size: .8em
+		font-size: .8em;
 	}
 }
 @media screen and (max-width: 350px){

@@ -1,7 +1,7 @@
 <div class="weather-background">
 <div class="weather-wrapper">
 <h3>Get the weather!</h3>
-<form  name="weatherForm" novalidate ng-submit="submitForm()">
+<form  name="weatherForm" class="weather-form" novalidate ng-submit="submitForm()">
 	<input name="weatherName" type="text" class="weather weather-name" ng-class="weatherForm.weatherName.$dirty ? 'ng-dirty' : 'ng-pristine'" ng-model="weather.city" placeholder="What`s the weather in..." required>
 	<button class="weather search-weather"  type="submit" ng-disabled="weatherForm.$invalid">Search</button>
 	<div class="weather-list">

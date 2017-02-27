@@ -13,6 +13,7 @@ a{
 	color: rgba(78,178,156,1);
 	font-family: 'Bahiana', cursive;
 	font-size:2.5em;
+	overflow: auto;
 }
 .loading-thing{
 	position: fixed;
