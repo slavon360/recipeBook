@@ -14,7 +14,6 @@
 	transition: all 1s;
 	display: table;
 }
-
 .background{
 	display: table-cell;
 	vertical-align: middle;

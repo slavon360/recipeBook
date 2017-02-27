@@ -6,9 +6,9 @@
 	<div ng-repeat="work in portfolio.works" class="work-item" ng-style="{'left':renderPosition($index),'width':workItemWidth()}">
       <div class="background" ng-style="{'background':work.background}">
 		<span class="work-name">{{work.name}} <br/> </span>
-		<span class="work-description">{{work.description}}</span>  
-		<a href="{{work.githubLink}}" style="margin-top:2em;" target="_blank" class="work-link">github code</a>
-		<a href="{{work.liveLink}}" target="_blank" class="work-link">live demo</a>
+		<span ng-show="work.githubLink" class="work-description">{{work.description}}</span>  
+		<a ng-show="work.githubLink" href="{{work.githubLink}}" style="margin-top:2em;" target="_blank" class="work-link">github code</a>
+		<a ng-show="work.liveLink" href="{{work.liveLink}}" target="_blank" class="work-link">live demo</a>
       </div>
 	</div>
 	

@@ -27,7 +27,11 @@ var myWorks=[{name:'Recipe Book',
                description:'some info',
                background:'url("/images/worksPreview/temperature.png")',
                liveLink:'/works/weatherApp',
-               githubLink:'https://github.com/slavon360/openWeatherMap'}];
+               githubLink:'https://github.com/slavon360/openWeatherMap'},
+               {name:'My other works',
+                background:'url("/images/worksPreview/repairing.png")',
+                liveLink:'https://slavon360.github.io/#/'
+               }];
 
 module.exports.myWorks=myWorks;
 
