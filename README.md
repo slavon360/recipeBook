@@ -17,4 +17,4 @@ In order to create an recipe, user should go to "Create recipe" item menu and fi
 user can choose one.
 For geting the data of required images i used API from pixabay.com.
 Server-side is written utilizing NodeJS and ExpressJS. 
-On the client-side i implemented AngularJS and Bootstrap.
+On the client-side i've implemented AngularJS and Bootstrap.
